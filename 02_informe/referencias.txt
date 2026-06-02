@@ -1,0 +1,72 @@
+[1] P. Chapman, J. Clinton, R. Kerber, T. Khabaza, T. Reinartz, C. Shearer y R. Wirth, CRISP-DM 1.0: Step-by-step data mining guide. SPSS Inc., 2000. Disponible en: https://public.dhe.ibm.com/software/analytics/spss/documentation/modeler/14.2/es/CRISP-DM.pdf. Consultado el 1 de mayo de 2026.
+
+[2] Aeronáutica Civil de Colombia, “Operaciones aéreas acumuladas en Colombia,” Datos Abiertos Colombia. Disponible en: https://www.datos.gov.co/Transporte/Operaciones-a-reas-acumuladas-en-Colombia/jh8x-n6h6. Consultado el 3 de mayo de 2026.
+
+[3] Aeronáutica Civil de Colombia, “Transporte Aéreo Comercial — Tráfico Origen-Destino,” Datos Abiertos Colombia. Disponible en: https://www.datos.gov.co/Transporte/Transporte-A-reo-Comercial-Tr-fico-Origen-Destino-/gb6w-ynu4. Consultado el 3 de mayo de 2026.
+[4] Datos Abiertos Colombia, “Portal Nacional de Datos Abiertos.” Disponible en: https://www.datos.gov.co/. Consultado el 4 de mayo de 2026.
+
+[5] OurAirports, “Open data downloads.” Disponible en: https://ourairports.com/data/. Consultado el 5 de mayo de 2026.
+
+[6] OurAirports, “Airports in Colombia — airports.csv.” Disponible en: https://ourairports.com/countries/CO/airports.csv. Consultado el 5 de mayo de 2026.
+
+[7] Iowa State University, Iowa Environmental Mesonet, “Download ASOS/AWOS/METAR Data.” Disponible en: https://mesonet.agron.iastate.edu/request/download.phtml. Consultado el 7 de mayo de 2026.
+
+[8] Iowa State University, Iowa Environmental Mesonet, “Documentation on /cgi-bin/request/asos.py.” Disponible en: https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?help=. Consultado el 7 de mayo de 2026.
+
+[9] Iowa State University, Iowa Environmental Mesonet, “IEM API Documentation.” Disponible en: https://mesonet.agron.iastate.edu/api/. Consultado el 8 de mayo de 2026.
+
+[10] National Weather Service Aviation Weather Center, “Data API.” Disponible en: https://aviationweather.gov/data/api/. Consultado el 9 de mayo de 2026.
+
+[11] National Weather Service Aviation Weather Center, “METAR and TAF Data.” Disponible en: https://aviationweather.gov/data/metar/. Consultado el 9 de mayo de 2026.
+
+[12] Databricks, “What is the medallion lakehouse architecture?” Databricks Documentation. Disponible en: https://docs.databricks.com/aws/en/lakehouse/medallion. Consultado el 10 de mayo de 2026.
+
+[13] Databricks, “What is Medallion Architecture?” Databricks Blog. Disponible en: https://www.databricks.com/blog/what-is-medallion-architecture. Consultado el 10 de mayo de 2026.
+
+[14] Apache Software Foundation, “pyspark.sql.DataFrame,” Apache Spark Documentation. Disponible en: https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrame.html. Consultado el 12 de mayo de 2026.
+
+[15] Apache Software Foundation, “PySpark Documentation,” Apache Spark Documentation. Disponible en: https://spark.apache.org/docs/latest/api/python/index.html. Consultado el 12 de mayo de 2026.
+
+[16] scikit-learn developers, “Metrics and scoring: quantifying the quality of predictions,” scikit-learn documentation. Disponible en: https://scikit-learn.org/stable/modules/model_evaluation.html. Consultado el 14 de mayo de 2026.
+
+[17] scikit-learn developers, “User Guide,” scikit-learn documentation. Disponible en: https://scikit-learn.org/stable/user_guide.html. Consultado el 14 de mayo de 2026.
+
+[18] Microsoft Corporation, “lightgbm.LGBMClassifier,” LightGBM Documentation. Disponible en: https://lightgbm.readthedocs.io/en/latest/pythonapi/lightgbm.LGBMClassifier.html. Consultado el 16 de mayo de 2026.
+
+[19] Microsoft Corporation, “Python API,” LightGBM Documentation. Disponible en: https://lightgbm.readthedocs.io/en/latest/Python-API.html. Consultado el 16 de mayo de 2026.
+
+[20] T. Chen y C. Guestrin, “XGBoost: A Scalable Tree Boosting System,” en Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2016, pp. 785–794. doi: 10.1145/2939672.2939785.
+
+[21] XGBoost Developers, “XGBoost Documentation.” Disponible en: https://xgboost.readthedocs.io/. Consultado el 18 de mayo de 2026.
+
+[22] XGBoost Developers, “Python API Reference,” XGBoost Documentation. Disponible en: https://xgboost.readthedocs.io/en/latest/python/python_api.html. Consultado el 18 de mayo de 2026.
+
+[23] Optuna Developers, “Optuna: A hyperparameter optimization framework,” Optuna Documentation. Disponible en: https://optuna.readthedocs.io/. Consultado el 20 de mayo de 2026.
+
+[24] Optuna Developers, “Optuna — A hyperparameter optimization framework.” Disponible en: https://optuna.org/. Consultado el 20 de mayo de 2026.
+
+[25] F. Pedregosa et al., “Scikit-learn: Machine Learning in Python,” Journal of Machine Learning Research, vol. 12, pp. 2825–2830, 2011. Disponible en: https://jmlr.org/papers/v12/pedregosa11a.html. Consultado el 21 de mayo de 2026.
+
+[26] L. Breiman, “Random Forests,” Machine Learning, vol. 45, pp. 5–32, 2001. doi: 10.1023/A:1010933404324.
+
+[27] P. Geurts, D. Ernst y L. Wehenkel, “Extremely randomized trees,” Machine Learning, vol. 63, pp. 3–42, 2006. doi: 10.1007/s10994-006-6226-1.
+
+[28] G. Ke et al., “LightGBM: A Highly Efficient Gradient Boosting Decision Tree,” en Advances in Neural Information Processing Systems, vol. 30, 2017. Disponible en: https://papers.nips.cc/paper_files/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html. Consultado el 23 de mayo de 2026.
+
+[29] Streamlit, “Streamlit documentation.” Disponible en: https://docs.streamlit.io/. Consultado el 24 de mayo de 2026.
+
+[30] Streamlit, “API reference,” Streamlit Documentation. Disponible en: https://docs.streamlit.io/develop/api-reference. Consultado el 24 de mayo de 2026.
+
+[31] Streamlit, “st.plotly_chart,” Streamlit Documentation. Disponible en: https://docs.streamlit.io/develop/api-reference/charts/st.plotly_chart. Consultado el 25 de mayo de 2026.
+
+[32] Streamlit-Folium, “streamlit-folium documentation.” Disponible en: https://folium.streamlit.app/. Consultado el 26 de mayo de 2026.
+
+[33] Plotly Technologies Inc., “Plotly Python Graphing Library.” Disponible en: https://plotly.com/python/. Consultado el 27 de mayo de 2026.
+
+[34] Python Software Foundation, “The Python Language Reference.” Disponible en: https://docs.python.org/3/reference/. Consultado el 28 de mayo de 2026.
+
+[35] The pandas development team, “pandas documentation.” Disponible en: https://pandas.pydata.org/docs/. Consultado el 29 de mayo de 2026.
+
+[36] NumPy Developers, “NumPy documentation.” Disponible en: https://numpy.org/doc/. Consultado el 30 de mayo de 2026.
+
+[37] Matplotlib Developers, “Matplotlib documentation.” Disponible en: https://matplotlib.org/stable/index.html. Consultado el 1 de junio de 2026.
