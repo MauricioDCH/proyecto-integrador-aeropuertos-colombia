@@ -6,6 +6,7 @@ import topAirports from './data/top_airports.json';
 import covidSeries from './data/covid_series.json';
 import covidEvents from './data/covid_events.json';
 import targetDistribution from './data/target_distribution.json';
+import imputation from './data/imputation.json';
 import weatherBoxplots from './data/weather_boxplots.json';
 import correlations from './data/correlations.json';
 import featureEngineering from './data/feature_engineering.json';
@@ -22,6 +23,7 @@ export const data = {
   covidSeries,
   covidEvents,
   targetDistribution,
+  imputation,
   weatherBoxplots,
   correlations,
   featureEngineering,

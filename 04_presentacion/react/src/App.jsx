@@ -18,6 +18,7 @@ import { ResultsSlide } from './slides/ResultsSlide';
 import { SourcesSlide } from './slides/SourcesSlide';
 import { TargetSlide } from './slides/TargetSlide';
 import { WeatherSlide } from './slides/WeatherSlide';
+import { ImputationSlide } from './slides/ImputationSlide';
 
 /**
  * Aplicación principal.
@@ -31,6 +32,7 @@ export default function App() {
       SourcesSlide,
       PipelineSlide,
       DatasetSlide,
+      ImputationSlide,
       EdaTopSlide,
       CovidSlide,
       TargetSlide,

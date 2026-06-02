@@ -23,6 +23,7 @@ export const NAV_ITEMS = [
   ['sources', 'Fuentes'],
   ['pipeline', 'Pipeline'],
   ['dataset', 'Dataset'],
+  ['imputation', 'Imputación'],
   ['edaTop', 'EDA Top'],
   ['covid', 'COVID-19'],
   ['target', 'Target'],

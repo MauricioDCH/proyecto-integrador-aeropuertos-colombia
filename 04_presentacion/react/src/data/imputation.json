@@ -1,0 +1,59 @@
+{
+  "title": "Imputación y tratamiento de datos faltantes",
+  "subtitle": "Estrategia aplicada para conservar cobertura sin reducir excesivamente el dataset.",
+  "summary": {
+    "input_records": "3300",
+    "model_records": "3254",
+    "airports": "46",
+    "unit": "aeropuerto-mes"
+  },
+  "steps": [
+    {
+      "id": "diagnostico",
+      "title": "1. Diagnóstico de faltantes",
+      "description": "Se revisó la cobertura mensual por aeropuerto y por familia de variables para identificar faltantes operacionales, de tráfico y meteorológicos."
+    },
+    {
+      "id": "metar",
+      "title": "2. Variables METAR",
+      "description": "Los faltantes meteorológicos se trataron priorizando la mediana mensual del propio aeropuerto cuando existía historial suficiente."
+    },
+    {
+      "id": "operacionales",
+      "title": "3. Variables operacionales y tráfico",
+      "description": "Las variables críticas de operaciones y tráfico se conservaron cuando existía información suficiente para construir el registro aeropuerto-mes."
+    },
+    {
+      "id": "exclusion",
+      "title": "4. Exclusión controlada",
+      "description": "Los registros sin target del mes siguiente o sin información mínima para modelado fueron excluidos del dataset final."
+    }
+  ],
+  "rules": [
+    {
+      "title": "Imputación meteorológica",
+      "items": [
+        "Mediana mensual del mismo aeropuerto cuando había historial disponible.",
+        "Conservación de indicadores de cobertura METAR.",
+        "Evitar inventar señal meteorológica en aeropuertos sin cobertura suficiente."
+      ]
+    },
+    {
+      "title": "Consistencia temporal",
+      "items": [
+        "No usar información futura para imputar meses pasados.",
+        "Mantener separación temporal entre entrenamiento, validación y prueba.",
+        "Construir lags y ventanas móviles después de ordenar por aeropuerto y mes."
+      ]
+    },
+    {
+      "title": "Control de leakage",
+      "items": [
+        "Excluir variables derivadas directamente del target.",
+        "No usar el nivel de operación futuro como predictor.",
+        "Mantener el objetivo como operaciones del mes siguiente."
+      ]
+    }
+  ],
+  "message": "La imputación permitió conservar el tamaño analítico del dataset sin romper la lógica temporal ni introducir información futura."
+}

@@ -302,6 +302,202 @@ button, a { font-family: inherit; }
 .variableFamilies h3 { margin: 0 0 10px; }
 .variableFamilies p { color: var(--muted); font-weight: 800; line-height: 1.4; }
 
+/* Imputación */
+
+.imputationHeader h3 {
+  margin: 0;
+  color: var(--navy);
+  font-size: 28px;
+}
+
+.imputationHeader p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-weight: 850;
+  line-height: 1.35;
+}
+
+
+.imputationSide {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.kpiGrid.two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.kpiGrid.compact .kpiCard {
+  min-height: 120px;
+  padding: 16px;
+}
+
+.kpiGrid.compact .kpiCard strong {
+  font-size: 30px;
+}
+
+.kpiGrid.compact .kpiCard span {
+  font-size: 13px;
+}
+
+.imputationMessage {
+  background: var(--navy);
+  color: white;
+  border-radius: 22px;
+  padding: 22px;
+  font-size: 19px;
+  font-weight: 900;
+  line-height: 1.35;
+}
+
+/* ============================================================
+   Imputación — versión limpia para exposición
+   ============================================================ */
+
+.imputationCleanGrid {
+  display: grid;
+  grid-template-columns: 1.35fr 0.65fr;
+  gap: 28px;
+  align-items: stretch;
+}
+
+.imputationCleanMain {
+  background: #FBFDFF;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  padding: 30px;
+}
+
+.imputationCleanMain h3 {
+  margin: 0;
+  color: var(--navy);
+  font-size: 30px;
+  letter-spacing: -0.03em;
+}
+
+.imputationCleanMain > p {
+  margin: 10px 0 24px;
+  color: var(--muted);
+  font-size: 18px;
+  font-weight: 850;
+  line-height: 1.35;
+  max-width: 900px;
+}
+
+.imputationFlow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.imputationFlow article {
+  background: white;
+  border: 1px solid var(--line);
+  border-left: 7px solid var(--blue);
+  border-radius: 22px;
+  padding: 22px;
+  min-height: 190px;
+  box-shadow: 0 12px 28px rgba(16, 24, 40, 0.045);
+}
+
+.imputationFlow article:nth-child(2) {
+  border-left-color: var(--green);
+}
+
+.imputationFlow article:nth-child(3) {
+  border-left-color: var(--orange);
+}
+
+.imputationFlow span {
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  align-items: center;
+  justify-content: center;
+  background: var(--blue-soft);
+  color: var(--blue);
+  font-weight: 950;
+  margin-bottom: 18px;
+}
+
+.imputationFlow h4 {
+  margin: 0 0 10px;
+  color: var(--navy);
+  font-size: 22px;
+}
+
+.imputationFlow p {
+  margin: 0;
+  color: #344054;
+  font-weight: 800;
+  line-height: 1.38;
+}
+
+.imputationCleanSide {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.imputationCleanSide .kpiCard {
+  min-height: 135px;
+}
+
+.imputationPrinciples {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.imputationPrinciples article {
+  background: white;
+  border: 1px solid var(--line);
+  border-top: 6px solid var(--blue);
+  border-radius: 22px;
+  padding: 20px 22px;
+}
+
+.imputationPrinciples article:nth-child(2) {
+  border-top-color: var(--green);
+}
+
+.imputationPrinciples article:nth-child(3) {
+  border-top-color: var(--orange);
+}
+
+.imputationPrinciples strong {
+  display: block;
+  color: var(--navy);
+  font-size: 19px;
+  margin-bottom: 8px;
+}
+
+.imputationPrinciples span {
+  display: block;
+  color: #344054;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.insightBox {
+  margin-top: 22px;
+  background: var(--blue-soft);
+  border: 1px solid #BFDBFE;
+  color: var(--navy);
+  border-radius: 20px;
+  padding: 18px 22px;
+  font-size: 18px;
+  font-weight: 950;
+}
+
+
+
+
 /* Gráficas */
 .chartCard {
   background: #FBFDFF;

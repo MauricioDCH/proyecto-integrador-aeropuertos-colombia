@@ -1,29 +1,33 @@
 [
   {
     "icao": "SKBO",
-    "airport": "El Dorado Intl. Airport",
-    "municipality": "Bogota",
+    "airport": "El Dorado International Airport",
+    "municipality": "Bogotá",
+    "label": "Bogotá · El Dorado",
     "operations": 1744239,
     "share": 36.3
   },
   {
     "icao": "SKRG",
-    "airport": "Jose Maria Córdova Intl. Airport",
+    "airport": "Jose Maria Córdova International Airport",
     "municipality": "Medellín",
+    "label": "Medellín · JMC",
     "operations": 493651,
     "share": 10.3
   },
   {
     "icao": "SKCL",
-    "airport": "Alfonso Bonilla Aragon Intl. Airport",
+    "airport": "Alfonso Bonilla Aragón International Airport",
     "municipality": "Cali",
+    "label": "Cali · Alfonso Bonilla",
     "operations": 306941,
     "share": 6.4
   },
   {
     "icao": "SKCG",
-    "airport": "Rafael Nuñez Intl. Airport",
+    "airport": "Rafael Núñez International Airport",
     "municipality": "Cartagena",
+    "label": "Cartagena · Rafael Núñez",
     "operations": 253661,
     "share": 5.3
   },
@@ -31,13 +35,15 @@
     "icao": "SKMD",
     "airport": "Enrique Olaya Herrera Airport",
     "municipality": "Medellín",
+    "label": "Medellín · Olaya Herrera",
     "operations": 181879,
     "share": 3.8
   },
   {
     "icao": "SKBQ",
-    "airport": "Ernesto Cortissoz Intl. Airport",
+    "airport": "Ernesto Cortissoz International Airport",
     "municipality": "Barranquilla",
+    "label": "Barranquilla · Cortissoz",
     "operations": 165595,
     "share": 3.5
   },
@@ -45,6 +51,7 @@
     "icao": "SKBG",
     "airport": "Palonegro Airport",
     "municipality": "Bucaramanga",
+    "label": "Bucaramanga · Palonegro",
     "operations": 141342,
     "share": 2.9
   },
@@ -52,56 +59,24 @@
     "icao": "SKQU",
     "airport": "Mariquita Airport",
     "municipality": "Mariquita",
+    "label": "Mariquita",
     "operations": 134185,
     "share": 2.8
   },
   {
     "icao": "SKSM",
-    "airport": "Simón Bolívar Intl. Airport",
+    "airport": "Simón Bolívar International Airport",
     "municipality": "Santa Marta",
+    "label": "Santa Marta · Simón Bolívar",
     "operations": 121907,
     "share": 2.5
   },
   {
     "icao": "SKPE",
-    "airport": "Matecaña Intl. Airport",
+    "airport": "Matecaña International Airport",
     "municipality": "Pereira",
+    "label": "Pereira · Matecaña",
     "operations": 108262,
     "share": 2.3
-  },
-  {
-    "icao": "SKSP",
-    "airport": "Gustavo Rojas Pinilla Intl. Airport",
-    "municipality": "San Andrés",
-    "operations": 103780,
-    "share": 2.2
-  },
-  {
-    "icao": "SKCC",
-    "airport": "Camilo Daza Intl. Airport",
-    "municipality": "Cúcuta",
-    "operations": 91632,
-    "share": 1.9
-  },
-  {
-    "icao": "SKMR",
-    "airport": "Los Garzones Airport",
-    "municipality": "Montería",
-    "operations": 71406,
-    "share": 1.5
-  },
-  {
-    "icao": "SKYP",
-    "airport": "El Alcaravan - Yopal Airport",
-    "municipality": "Yopal",
-    "operations": 68194,
-    "share": 1.4
-  },
-  {
-    "icao": "SKNV",
-    "airport": "Benito Salas Airport",
-    "municipality": "Neiva",
-    "operations": 60395,
-    "share": 1.3
   }
 ]
