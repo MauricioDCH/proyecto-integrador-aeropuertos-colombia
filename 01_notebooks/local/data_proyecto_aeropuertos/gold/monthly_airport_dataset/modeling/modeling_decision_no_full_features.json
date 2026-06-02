@@ -1,0 +1,18 @@
+{
+  "config_id": "no_full_features",
+  "descripcion": "No se guarda una configuración full_features como dataset principal de modelado. La comparación se concentrará en las configuraciones seleccionadas por correlación: corr_060_070, corr_060_080 y corr_060_090.",
+  "motivo": "El objetivo es comparar los mismos modelos bajo distintos niveles de reducción de redundancia entre variables, evitando usar el dataset completo como configuración principal.",
+  "datasets_base": {
+    "train": "df_train_preprocessed",
+    "validation": "df_val_preprocessed",
+    "test": "df_test_preprocessed"
+  },
+  "configuraciones_finales_modelado": [
+    "corr_060_070",
+    "corr_060_080",
+    "corr_060_090",
+    "baseline_persistencia"
+  ],
+  "pca_pendiente": true,
+  "nota_pca": "La PCA no se aplica en este notebook. Se deja únicamente para una fase posterior si se implementa VQC."
+}

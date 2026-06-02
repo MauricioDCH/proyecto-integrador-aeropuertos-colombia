@@ -1,0 +1,146 @@
+[
+  {
+    "feature": "n_empresas_llegada",
+    "corr": 0.338,
+    "abs": 0.338,
+    "group": "demanda"
+  },
+  {
+    "feature": "n_empresas_salida",
+    "corr": 0.334,
+    "abs": 0.334,
+    "group": "demanda"
+  },
+  {
+    "feature": "n_destinos_total",
+    "corr": 0.303,
+    "abs": 0.303,
+    "group": "demanda"
+  },
+  {
+    "feature": "operaciones_total",
+    "corr": 0.298,
+    "abs": 0.298,
+    "group": "operacional"
+  },
+  {
+    "feature": "n_origenes_total",
+    "corr": 0.294,
+    "abs": 0.294,
+    "group": "demanda"
+  },
+  {
+    "feature": "operaciones_llegada",
+    "corr": 0.293,
+    "abs": 0.293,
+    "group": "operacional"
+  },
+  {
+    "feature": "operaciones_salida",
+    "corr": 0.293,
+    "abs": 0.293,
+    "group": "operacional"
+  },
+  {
+    "feature": "pasajeros_salida_nacional",
+    "corr": 0.273,
+    "abs": 0.273,
+    "group": "demanda"
+  },
+  {
+    "feature": "n_registros_salida",
+    "corr": 0.268,
+    "abs": 0.268,
+    "group": "demanda"
+  },
+  {
+    "feature": "pasajeros_llegada_nacional",
+    "corr": 0.267,
+    "abs": 0.267,
+    "group": "demanda"
+  },
+  {
+    "feature": "n_registros_llegada",
+    "corr": 0.264,
+    "abs": 0.264,
+    "group": "demanda"
+  },
+  {
+    "feature": "pasajeros_salida",
+    "corr": 0.257,
+    "abs": 0.257,
+    "group": "demanda"
+  },
+  {
+    "feature": "n_metar_mes",
+    "corr": 0.255,
+    "abs": 0.255,
+    "group": "meteorologico"
+  },
+  {
+    "feature": "pasajeros_total",
+    "corr": 0.254,
+    "abs": 0.254,
+    "group": "demanda"
+  },
+  {
+    "feature": "pasajeros_llegada",
+    "corr": 0.251,
+    "abs": 0.251,
+    "group": "demanda"
+  },
+  {
+    "feature": "temp_std_c",
+    "corr": 0.249,
+    "abs": 0.249,
+    "group": "meteorologico"
+  },
+  {
+    "feature": "tiene_od_mes",
+    "corr": 0.24,
+    "abs": 0.24,
+    "group": "demanda"
+  },
+  {
+    "feature": "dewpoint_media_c",
+    "corr": -0.201,
+    "abs": 0.201,
+    "group": "meteorologico"
+  },
+  {
+    "feature": "tiene_metar_mes",
+    "corr": 0.199,
+    "abs": 0.199,
+    "group": "meteorologico"
+  },
+  {
+    "feature": "pasajeros_internacional_total",
+    "corr": 0.197,
+    "abs": 0.197,
+    "group": "demanda"
+  },
+  {
+    "feature": "pasajeros_salida_internacional",
+    "corr": 0.195,
+    "abs": 0.195,
+    "group": "demanda"
+  },
+  {
+    "feature": "carga_salida_kg",
+    "corr": 0.193,
+    "abs": 0.193,
+    "group": "demanda"
+  },
+  {
+    "feature": "elevation_ft",
+    "corr": 0.193,
+    "abs": 0.193,
+    "group": "demanda"
+  },
+  {
+    "feature": "cobertura_metar_ratio",
+    "corr": 0.192,
+    "abs": 0.192,
+    "group": "meteorologico"
+  }
+]

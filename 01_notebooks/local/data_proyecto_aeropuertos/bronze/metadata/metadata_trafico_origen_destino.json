@@ -1,0 +1,1556 @@
+{
+  "id": "gb6w-ynu4",
+  "name": "Transporte Aéreo Comercial – Tráfico Origen‑Destino (Colombia)",
+  "assetType": "dataset",
+  "attribution": "Unidad Administrativa Especial de Aeronáutica Civil - AEROCIVIL, Bogotá D.C.",
+  "attributionLink": "https://www.aerocivil.gov.co/transparencia-y-acceso-a-la-informacion-publica/datos-abiertos",
+  "averageRating": 0,
+  "category": "Transporte",
+  "createdAt": 1774469408,
+  "description": "Este conjunto de datos contiene información estadística sobre la operación del transporte aéreo comercial en Colombia, correspondiente a los trayectos realizados entre aeropuertos de origen y destino, para el período comprendido entre los años 2020 y 2026\nIncluye variables como empresa aérea, período de operación (año y mes), aeropuerto de origen y destino, ciudad y país, tipo de vuelo, tipo de tráfico (nacional o internacional), número de pasajeros transportados y carga más correo movilizados.\nLa información es recolectada y acopiada por la Unidad Administrativa Especial de Aeronáutica Civil con fines de seguimiento, control y análisis del sector aeronáutico.",
+  "diciBackend": false,
+  "displayType": "table",
+  "downloadCount": 78,
+  "hideFromCatalog": false,
+  "hideFromDataJson": false,
+  "licenseId": "CC_40_BY_SA",
+  "locked": false,
+  "newBackend": true,
+  "numberOfComments": 0,
+  "oid": 42026879,
+  "provenance": "official",
+  "publicationAppendEnabled": false,
+  "publicationDate": 1776702530,
+  "publicationGroup": 20319290,
+  "publicationStage": "published",
+  "resourceName": "Solicitud_Transporte_Aereo_Origen_Destino_2020_2025",
+  "rowsUpdatedAt": 1779466566,
+  "rowsUpdatedBy": "aba2-n32i",
+  "tableId": 20319290,
+  "totalTimesRated": 0,
+  "viewCount": 442,
+  "viewLastModified": 1779466389,
+  "viewType": "tabular",
+  "approvals": [
+    {
+      "reviewedAt": 1776808845,
+      "reviewedAutomatically": false,
+      "state": "approved",
+      "submissionId": 7438663,
+      "submissionObject": "public_audience_request",
+      "submissionOutcome": "change_audience",
+      "submittedAt": 1776702530,
+      "targetAudience": "public",
+      "workflowId": 2188,
+      "reviewer": {
+        "id": "r4qn-dwdd",
+        "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+      },
+      "submissionDetails": {
+        "permissionType": "READ"
+      },
+      "submissionOutcomeApplication": {
+        "endedAt": 1776808845,
+        "failureCount": 0,
+        "startedAt": 1776808845,
+        "status": "success"
+      },
+      "submitter": {
+        "id": "aba2-n32i",
+        "displayName": "DATOS ABIERTOS AEROCIVIL"
+      }
+    }
+  ],
+  "clientContext": {
+    "clientContextVariables": [],
+    "inheritedVariables": {}
+  },
+  "columns": [
+    {
+      "id": 631067951,
+      "name": "Sigla Empresa",
+      "dataTypeName": "text",
+      "description": "Sigla OACI con la cual se identifica la empresa ante la Unidad Administrativa Especial de Aeronáutica civil",
+      "fieldName": "sigla_empresa",
+      "position": 1,
+      "renderTypeName": "text",
+      "tableColumnId": 167098176,
+      "cachedContents": {
+        "non_null": "455787",
+        "largest": "WGN",
+        "null": "0",
+        "top": [
+          {
+            "item": "AVA",
+            "count": "70562"
+          },
+          {
+            "item": "CMP",
+            "count": "46435"
+          },
+          {
+            "item": "AAL",
+            "count": "36458"
+          },
+          {
+            "item": "DAL",
+            "count": "25914"
+          },
+          {
+            "item": "NKS",
+            "count": "24147"
+          },
+          {
+            "item": "KLM",
+            "count": "19005"
+          },
+          {
+            "item": "AMX",
+            "count": "13498"
+          },
+          {
+            "item": "AFR",
+            "count": "9403"
+          },
+          {
+            "item": "THY",
+            "count": "9091"
+          },
+          {
+            "item": "1EH",
+            "count": "9038"
+          },
+          {
+            "item": "AVR",
+            "count": "8576"
+          },
+          {
+            "item": "VVC",
+            "count": "8520"
+          },
+          {
+            "item": "NSE",
+            "count": "8240"
+          },
+          {
+            "item": "1HE",
+            "count": "7556"
+          },
+          {
+            "item": "RPB",
+            "count": "7098"
+          },
+          {
+            "item": "JBU",
+            "count": "7012"
+          },
+          {
+            "item": "EFY",
+            "count": "6758"
+          },
+          {
+            "item": "1BR",
+            "count": "6732"
+          },
+          {
+            "item": "1BT",
+            "count": "6482"
+          },
+          {
+            "item": "AEA",
+            "count": "5774"
+          }
+        ],
+        "smallest": "0EC",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {}
+    },
+    {
+      "id": 631067950,
+      "name": "Nombre",
+      "dataTypeName": "text",
+      "description": "Nombre que identifica la empresa ante la Unidad Administrativa Especial de Aeronáutica civil",
+      "fieldName": "nombre",
+      "position": 2,
+      "renderTypeName": "text",
+      "tableColumnId": 167098175,
+      "cachedContents": {
+        "non_null": "455787",
+        "largest": "WORLD2FLY",
+        "null": "0",
+        "top": [
+          {
+            "item": "AVIANCA",
+            "count": "70562"
+          },
+          {
+            "item": "COPA AIRLINES",
+            "count": "45589"
+          },
+          {
+            "item": "AMERICAN AIRLINES",
+            "count": "27994"
+          },
+          {
+            "item": "DELTA",
+            "count": "25914"
+          },
+          {
+            "item": "SPIRIT AIRLINES",
+            "count": "24147"
+          },
+          {
+            "item": "KLM",
+            "count": "19005"
+          },
+          {
+            "item": "AEROMEXICO SUCURSAL COLOMBIA",
+            "count": "13498"
+          },
+          {
+            "item": "AIR FRANCE",
+            "count": "9403"
+          },
+          {
+            "item": "TURKISH AIRLINES INC",
+            "count": "9091"
+          },
+          {
+            "item": "SEARCA S.A.",
+            "count": "9038"
+          },
+          {
+            "item": "AVIANCA EXPRESS",
+            "count": "8576"
+          },
+          {
+            "item": "FAST COLOMBIA SAS",
+            "count": "8520"
+          },
+          {
+            "item": "AMERICAN",
+            "count": "8464"
+          },
+          {
+            "item": "SERVICIO AEREO A TERRITORIOS NACIONALES SATENA",
+            "count": "8240"
+          },
+          {
+            "item": "AVIANLINE CHARTE´S S.A.S.",
+            "count": "7556"
+          },
+          {
+            "item": "AEROREPUBLICA",
+            "count": "7098"
+          },
+          {
+            "item": "JETBLUE AIRWAYS CORPORATION",
+            "count": "7012"
+          },
+          {
+            "item": "EASYFLY S.A",
+            "count": "6758"
+          },
+          {
+            "item": "AEROLINEAS LLANERAS ARALL LTDA.",
+            "count": "6732"
+          },
+          {
+            "item": "ARO S.A.S.",
+            "count": "6482"
+          }
+        ],
+        "smallest": "21 AIR",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {}
+    },
+    {
+      "id": 631067949,
+      "name": "Año",
+      "dataTypeName": "number",
+      "description": "año de la información a registrar (YYYY).",
+      "fieldName": "a_o",
+      "position": 3,
+      "renderTypeName": "number",
+      "tableColumnId": 167098174,
+      "cachedContents": {
+        "non_null": "455787",
+        "largest": "2026",
+        "null": "0",
+        "top": [
+          {
+            "item": "2025",
+            "count": "88464"
+          },
+          {
+            "item": "2024",
+            "count": "83506"
+          },
+          {
+            "item": "2023",
+            "count": "78023"
+          },
+          {
+            "item": "2022",
+            "count": "68432"
+          },
+          {
+            "item": "2021",
+            "count": "68139"
+          },
+          {
+            "item": "2020",
+            "count": "45511"
+          },
+          {
+            "item": "2026",
+            "count": "23712"
+          }
+        ],
+        "smallest": "2020",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 631067948,
+      "name": "Número de Mes",
+      "dataTypeName": "number",
+      "description": "Mes de la información a registrar (MM).",
+      "fieldName": "n_mero_de_mes",
+      "position": 4,
+      "renderTypeName": "number",
+      "tableColumnId": 167098173,
+      "cachedContents": {
+        "non_null": "455787",
+        "largest": "12",
+        "null": "0",
+        "top": [
+          {
+            "item": "3",
+            "count": "47573"
+          },
+          {
+            "item": "2",
+            "count": "46991"
+          },
+          {
+            "item": "1",
+            "count": "45828"
+          },
+          {
+            "item": "12",
+            "count": "40014"
+          },
+          {
+            "item": "11",
+            "count": "37416"
+          },
+          {
+            "item": "10",
+            "count": "36648"
+          },
+          {
+            "item": "9",
+            "count": "34714"
+          },
+          {
+            "item": "8",
+            "count": "34425"
+          },
+          {
+            "item": "7",
+            "count": "34044"
+          },
+          {
+            "item": "6",
+            "count": "32808"
+          },
+          {
+            "item": "5",
+            "count": "32739"
+          },
+          {
+            "item": "4",
+            "count": "32587"
+          }
+        ],
+        "smallest": "1",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 631067947,
+      "name": "Origen",
+      "dataTypeName": "text",
+      "description": "Corresponde a la sigla IATA del aeropuerto donde se origina el trayecto",
+      "fieldName": "origen",
+      "position": 5,
+      "renderTypeName": "text",
+      "tableColumnId": 167098172,
+      "cachedContents": {
+        "non_null": "455787",
+        "largest": "ZZZ",
+        "null": "0",
+        "top": [
+          {
+            "item": "BOG",
+            "count": "79327"
+          },
+          {
+            "item": "CTG",
+            "count": "25209"
+          },
+          {
+            "item": "MDE",
+            "count": "23642"
+          },
+          {
+            "item": "CLO",
+            "count": "15528"
+          },
+          {
+            "item": "BAQ",
+            "count": "12330"
+          },
+          {
+            "item": "VVC",
+            "count": "10031"
+          },
+          {
+            "item": "BGA",
+            "count": "9680"
+          },
+          {
+            "item": "EOH",
+            "count": "8421"
+          },
+          {
+            "item": "PEI",
+            "count": "8065"
+          },
+          {
+            "item": "MVP",
+            "count": "7749"
+          },
+          {
+            "item": "CUC",
+            "count": "7039"
+          },
+          {
+            "item": "SMR",
+            "count": "6432"
+          },
+          {
+            "item": "ADZ",
+            "count": "6216"
+          },
+          {
+            "item": "AXM",
+            "count": "6045"
+          },
+          {
+            "item": "MIA",
+            "count": "4946"
+          },
+          {
+            "item": "MTR",
+            "count": "4565"
+          },
+          {
+            "item": "PSO",
+            "count": "4131"
+          },
+          {
+            "item": "VUP",
+            "count": "3922"
+          },
+          {
+            "item": "LET",
+            "count": "3374"
+          },
+          {
+            "item": "RCH",
+            "count": "3295"
+          }
+        ],
+        "smallest": "1GH",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {}
+    },
+    {
+      "id": 631067946,
+      "name": "Nombre Origen",
+      "dataTypeName": "text",
+      "description": "Nombre del aeropuerto de origen.",
+      "fieldName": "nombre_origen",
+      "position": 6,
+      "renderTypeName": "text",
+      "tableColumnId": 167098171,
+      "cachedContents": {
+        "non_null": "455787",
+        "largest": "ZURICH",
+        "null": "0",
+        "top": [
+          {
+            "item": "BOGOTA - EL DORADO",
+            "count": "60584"
+          },
+          {
+            "item": "CARTAGENA - RAFAEL NUÑEZ",
+            "count": "25209"
+          },
+          {
+            "item": "RIONEGRO - JOSE M. CORDOVA",
+            "count": "23642"
+          },
+          {
+            "item": "BOGOTA - EL DORADO LUIS CARLOS GALAN SARMIENTO",
+            "count": "19695"
+          },
+          {
+            "item": "CALI - ALFONSO BONILLA ARAGON",
+            "count": "15528"
+          },
+          {
+            "item": "BARRANQUILLA-E. CORTISSOZ",
+            "count": "12330"
+          },
+          {
+            "item": "VANGUARDIA",
+            "count": "10031"
+          },
+          {
+            "item": "BUCARAMANGA - PALONEGRO",
+            "count": "9680"
+          },
+          {
+            "item": "MEDELLIN - OLAYA HERRERA",
+            "count": "8421"
+          },
+          {
+            "item": "SIMON BOLIVAR",
+            "count": "8087"
+          },
+          {
+            "item": "PEREIRA - MATECAÑA",
+            "count": "8065"
+          },
+          {
+            "item": "MITU",
+            "count": "7749"
+          },
+          {
+            "item": "CAMILO DAZA",
+            "count": "7039"
+          },
+          {
+            "item": "SAN ANDRES-GUSTAVO ROJAS PINILLA",
+            "count": "6216"
+          },
+          {
+            "item": "EL EDEN",
+            "count": "6045"
+          },
+          {
+            "item": "MIAMI INTL",
+            "count": "4946"
+          },
+          {
+            "item": "ALFONSO LOPEZ PUMAREJO.",
+            "count": "3922"
+          },
+          {
+            "item": "MONTERÍA - LOS GARZONES",
+            "count": "3437"
+          },
+          {
+            "item": "PASTO - ANTONIO NARIÑO",
+            "count": "3381"
+          },
+          {
+            "item": "LETICIA-ALFREDO VASQUEZ COBO",
+            "count": "3375"
+          }
+        ],
+        "smallest": "ABELARDO L. RODRIGUEZ / INTL",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {}
+    },
+    {
+      "id": 631067945,
+      "name": "Ciudad Origen",
+      "dataTypeName": "text",
+      "description": "Ciudad del aeropuerto de origen.",
+      "fieldName": "ciudad_origen",
+      "position": 7,
+      "renderTypeName": "text",
+      "tableColumnId": 167098170,
+      "cachedContents": {
+        "non_null": "455787",
+        "largest": "ZURICH",
+        "null": "0",
+        "top": [
+          {
+            "item": "BOGOTÁ, D.C.",
+            "count": "60459"
+          },
+          {
+            "item": "RIONEGRO - ANTIOQUIA",
+            "count": "23651"
+          },
+          {
+            "item": "CARTAGENA DE INDIAS",
+            "count": "20714"
+          },
+          {
+            "item": "BOGOTA",
+            "count": "18887"
+          },
+          {
+            "item": "BARRANQUILLA",
+            "count": "12331"
+          },
+          {
+            "item": "SANTIAGO DE CALI",
+            "count": "11798"
+          },
+          {
+            "item": "VILLAVICENCIO",
+            "count": "10091"
+          },
+          {
+            "item": "BUCARAMANGA",
+            "count": "9680"
+          },
+          {
+            "item": "MITÚ",
+            "count": "9595"
+          },
+          {
+            "item": "PEREIRA",
+            "count": "8065"
+          },
+          {
+            "item": "SANTA MARTA",
+            "count": "6432"
+          },
+          {
+            "item": "SAN ANDRES - ISLA",
+            "count": "6216"
+          },
+          {
+            "item": "ARMENIA",
+            "count": "6046"
+          },
+          {
+            "item": "SAN JOSÉ DE CÚCUTA",
+            "count": "5769"
+          },
+          {
+            "item": "MEDELLÍN",
+            "count": "5540"
+          },
+          {
+            "item": "MIAMI",
+            "count": "4946"
+          },
+          {
+            "item": "MITU",
+            "count": "4706"
+          },
+          {
+            "item": "CARTAGENA",
+            "count": "4495"
+          },
+          {
+            "item": "PASTO",
+            "count": "4136"
+          },
+          {
+            "item": "LETICIA",
+            "count": "3993"
+          }
+        ],
+        "smallest": "0",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {}
+    },
+    {
+      "id": 631067944,
+      "name": "Pais Origen",
+      "dataTypeName": "text",
+      "description": "País del aeropuerto de origen.",
+      "fieldName": "pais_origen",
+      "position": 8,
+      "renderTypeName": "text",
+      "tableColumnId": 167098169,
+      "cachedContents": {
+        "non_null": "455787",
+        "largest": "WISCONSIN",
+        "null": "0",
+        "top": [
+          {
+            "item": "COLOMBIA",
+            "count": "307934"
+          },
+          {
+            "item": "ESTADOS UNIDOS",
+            "count": "52357"
+          },
+          {
+            "item": "MEXICO",
+            "count": "9407"
+          },
+          {
+            "item": "BRASIL",
+            "count": "5641"
+          },
+          {
+            "item": "ARGENTINA",
+            "count": "4329"
+          },
+          {
+            "item": "ECUADOR",
+            "count": "4301"
+          },
+          {
+            "item": "ESPAÑA",
+            "count": "4197"
+          },
+          {
+            "item": "REPUBLICA DOMINICANA",
+            "count": "3442"
+          },
+          {
+            "item": "CANADA",
+            "count": "3425"
+          },
+          {
+            "item": "PANAMA",
+            "count": "3316"
+          },
+          {
+            "item": "ANTILLAS HOLANDESAS",
+            "count": "2969"
+          },
+          {
+            "item": "ALEMANIA",
+            "count": "2875"
+          },
+          {
+            "item": "ITALIA",
+            "count": "2842"
+          },
+          {
+            "item": "PERU",
+            "count": "2665"
+          },
+          {
+            "item": "FRANCIA",
+            "count": "2188"
+          },
+          {
+            "item": "CHILE",
+            "count": "2172"
+          },
+          {
+            "item": "INGLATERRA",
+            "count": "1964"
+          },
+          {
+            "item": "COSTA RICA",
+            "count": "1878"
+          },
+          {
+            "item": "PUERTO RICO",
+            "count": "1770"
+          },
+          {
+            "item": "VENEZUELA",
+            "count": "1756"
+          }
+        ],
+        "smallest": "0",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {}
+    },
+    {
+      "id": 631067943,
+      "name": "Destino",
+      "dataTypeName": "text",
+      "description": "Corresponde a la sigla IATA del aeropuerto donde termina el trayecto",
+      "fieldName": "destino",
+      "position": 9,
+      "renderTypeName": "text",
+      "tableColumnId": 167098168,
+      "cachedContents": {
+        "non_null": "455787",
+        "largest": "ZZZ",
+        "null": "0",
+        "top": [
+          {
+            "item": "BOG",
+            "count": "78698"
+          },
+          {
+            "item": "MDE",
+            "count": "27270"
+          },
+          {
+            "item": "CTG",
+            "count": "19737"
+          },
+          {
+            "item": "CLO",
+            "count": "13593"
+          },
+          {
+            "item": "BAQ",
+            "count": "10872"
+          },
+          {
+            "item": "VVC",
+            "count": "9722"
+          },
+          {
+            "item": "EOH",
+            "count": "8437"
+          },
+          {
+            "item": "BGA",
+            "count": "8084"
+          },
+          {
+            "item": "MVP",
+            "count": "7115"
+          },
+          {
+            "item": "PEI",
+            "count": "6423"
+          },
+          {
+            "item": "CUC",
+            "count": "5514"
+          },
+          {
+            "item": "SMR",
+            "count": "5063"
+          },
+          {
+            "item": "AXM",
+            "count": "5037"
+          },
+          {
+            "item": "MIA",
+            "count": "5007"
+          },
+          {
+            "item": "ADZ",
+            "count": "4507"
+          },
+          {
+            "item": "PTY",
+            "count": "3244"
+          },
+          {
+            "item": "MEX",
+            "count": "3156"
+          },
+          {
+            "item": "LIM",
+            "count": "3004"
+          },
+          {
+            "item": "MTR",
+            "count": "2992"
+          },
+          {
+            "item": "UIO",
+            "count": "2857"
+          }
+        ],
+        "smallest": "1GH",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {}
+    },
+    {
+      "id": 631067942,
+      "name": "Nombre Destino",
+      "dataTypeName": "text",
+      "description": "Nombre del aeropuerto de Destino.",
+      "fieldName": "nombre_destino",
+      "position": 10,
+      "renderTypeName": "text",
+      "tableColumnId": 167098167,
+      "cachedContents": {
+        "non_null": "455787",
+        "largest": "ZURICH",
+        "null": "0",
+        "top": [
+          {
+            "item": "BOGOTA - EL DORADO",
+            "count": "60190"
+          },
+          {
+            "item": "RIONEGRO - JOSE M. CORDOVA",
+            "count": "27270"
+          },
+          {
+            "item": "BOGOTA - EL DORADO LUIS CARLOS GALAN SARMIENTO",
+            "count": "19429"
+          },
+          {
+            "item": "CARTAGENA - RAFAEL NUÑEZ",
+            "count": "17220"
+          },
+          {
+            "item": "CALI - ALFONSO BONILLA ARAGON",
+            "count": "13593"
+          },
+          {
+            "item": "BARRANQUILLA-E. CORTISSOZ",
+            "count": "10872"
+          },
+          {
+            "item": "VANGUARDIA",
+            "count": "9722"
+          },
+          {
+            "item": "MEDELLIN - OLAYA HERRERA",
+            "count": "8437"
+          },
+          {
+            "item": "BUCARAMANGA - PALONEGRO",
+            "count": "8084"
+          },
+          {
+            "item": "SIMON BOLIVAR",
+            "count": "7227"
+          },
+          {
+            "item": "MITU",
+            "count": "7115"
+          },
+          {
+            "item": "PEREIRA - MATECAÑA",
+            "count": "6423"
+          },
+          {
+            "item": "CAMILO DAZA",
+            "count": "5514"
+          },
+          {
+            "item": "EL EDEN",
+            "count": "5037"
+          },
+          {
+            "item": "MIAMI INTL",
+            "count": "5007"
+          },
+          {
+            "item": "SAN ANDRES-GUSTAVO ROJAS PINILLA",
+            "count": "4507"
+          },
+          {
+            "item": "TOCUMEN INTL",
+            "count": "3244"
+          },
+          {
+            "item": "LICENCIADO BENITO JUAREZ INTL",
+            "count": "3156"
+          },
+          {
+            "item": "CALLAO /INTL JORGE CHAVEZ",
+            "count": "3004"
+          },
+          {
+            "item": "AEROPUERTO INTERNACIONAL MARISCAL S",
+            "count": "2857"
+          }
+        ],
+        "smallest": "ABELARDO L. RODRIGUEZ / INTL",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {}
+    },
+    {
+      "id": 631067941,
+      "name": "Ciudad Destino",
+      "dataTypeName": "text",
+      "description": "Ciudad del aeropuerto de Destino.",
+      "fieldName": "ciudad_destino",
+      "position": 11,
+      "renderTypeName": "text",
+      "tableColumnId": 167098166,
+      "cachedContents": {
+        "non_null": "455787",
+        "largest": "ZURICH",
+        "null": "0",
+        "top": [
+          {
+            "item": "BOGOTÁ, D.C.",
+            "count": "60039"
+          },
+          {
+            "item": "RIONEGRO - ANTIOQUIA",
+            "count": "27280"
+          },
+          {
+            "item": "BOGOTA",
+            "count": "18688"
+          },
+          {
+            "item": "CARTAGENA DE INDIAS",
+            "count": "15893"
+          },
+          {
+            "item": "BARRANQUILLA",
+            "count": "10872"
+          },
+          {
+            "item": "SANTIAGO DE CALI",
+            "count": "10053"
+          },
+          {
+            "item": "VILLAVICENCIO",
+            "count": "9796"
+          },
+          {
+            "item": "MITÚ",
+            "count": "9538"
+          },
+          {
+            "item": "BUCARAMANGA",
+            "count": "8084"
+          },
+          {
+            "item": "PEREIRA",
+            "count": "6423"
+          },
+          {
+            "item": "MEDELLÍN",
+            "count": "5503"
+          },
+          {
+            "item": "SANTA MARTA",
+            "count": "5063"
+          },
+          {
+            "item": "ARMENIA",
+            "count": "5040"
+          },
+          {
+            "item": "MIAMI",
+            "count": "5007"
+          },
+          {
+            "item": "MITU",
+            "count": "4727"
+          },
+          {
+            "item": "SAN ANDRES - ISLA",
+            "count": "4507"
+          },
+          {
+            "item": "NEW YORK",
+            "count": "4329"
+          },
+          {
+            "item": "SAN JOSÉ DE CÚCUTA",
+            "count": "4249"
+          },
+          {
+            "item": "CARTAGENA",
+            "count": "3844"
+          },
+          {
+            "item": "CALI",
+            "count": "3558"
+          }
+        ],
+        "smallest": "0",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {}
+    },
+    {
+      "id": 631067940,
+      "name": "Pais Destino",
+      "dataTypeName": "text",
+      "description": "País del aeropuerto de Destino.",
+      "fieldName": "pais_destino",
+      "position": 12,
+      "renderTypeName": "text",
+      "tableColumnId": 167098165,
+      "cachedContents": {
+        "non_null": "455787",
+        "largest": "ZAMBIA",
+        "null": "0",
+        "top": [
+          {
+            "item": "COLOMBIA",
+            "count": "284178"
+          },
+          {
+            "item": "ESTADOS UNIDOS",
+            "count": "55750"
+          },
+          {
+            "item": "MEXICO",
+            "count": "10638"
+          },
+          {
+            "item": "BRASIL",
+            "count": "6949"
+          },
+          {
+            "item": "ESPAÑA",
+            "count": "5826"
+          },
+          {
+            "item": "ECUADOR",
+            "count": "5511"
+          },
+          {
+            "item": "ARGENTINA",
+            "count": "5176"
+          },
+          {
+            "item": "REPUBLICA DOMINICANA",
+            "count": "4786"
+          },
+          {
+            "item": "ANTILLAS HOLANDESAS",
+            "count": "4395"
+          },
+          {
+            "item": "CANADA",
+            "count": "4383"
+          },
+          {
+            "item": "PANAMA",
+            "count": "3844"
+          },
+          {
+            "item": "PERU",
+            "count": "3431"
+          },
+          {
+            "item": "ALEMANIA",
+            "count": "3107"
+          },
+          {
+            "item": "ITALIA",
+            "count": "3009"
+          },
+          {
+            "item": "INGLATERRA",
+            "count": "2873"
+          },
+          {
+            "item": "CHILE",
+            "count": "2803"
+          },
+          {
+            "item": "FRANCIA",
+            "count": "2618"
+          },
+          {
+            "item": "COSTA RICA",
+            "count": "2457"
+          },
+          {
+            "item": "GUATEMALA",
+            "count": "2388"
+          },
+          {
+            "item": "PUERTO RICO",
+            "count": "2302"
+          }
+        ],
+        "smallest": "0",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {}
+    },
+    {
+      "id": 631067939,
+      "name": "Tráfico (N/I)",
+      "dataTypeName": "text",
+      "description": "Tráfico 'E: Especial, I: Internacional, N: Nacional",
+      "fieldName": "tr_fico_n_i",
+      "position": 13,
+      "renderTypeName": "text",
+      "tableColumnId": 167098164,
+      "cachedContents": {
+        "non_null": "455787",
+        "largest": "N",
+        "null": "0",
+        "top": [
+          {
+            "item": "I",
+            "count": "295193"
+          },
+          {
+            "item": "N",
+            "count": "148474"
+          },
+          {
+            "item": "E",
+            "count": "12120"
+          }
+        ],
+        "smallest": "E",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {}
+    },
+    {
+      "id": 631067938,
+      "name": "Tipo Vuelo",
+      "dataTypeName": "text",
+      "description": "Determina el tipo de operación entre el correspondiente par de ciudades (Origen-Destino)A : Adicional C:  Charter N: No Regular R: Regular T: Taxi Aereo",
+      "fieldName": "tipo_vuelo",
+      "position": 14,
+      "renderTypeName": "text",
+      "tableColumnId": 167098163,
+      "cachedContents": {
+        "non_null": "455787",
+        "largest": "T",
+        "null": "0",
+        "top": [
+          {
+            "item": "R",
+            "count": "352312"
+          },
+          {
+            "item": "T",
+            "count": "87359"
+          },
+          {
+            "item": "C",
+            "count": "10286"
+          },
+          {
+            "item": "A",
+            "count": "5830"
+          }
+        ],
+        "smallest": "A",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {}
+    },
+    {
+      "id": 631067937,
+      "name": "Pasajeros",
+      "dataTypeName": "number",
+      "description": "Se entiende como todos los pasajeros por cuyo transporte la línea aérea percibe remuneración comercial. Inclúyanse, por ejemplo, a) los pasajeros que viajan en virtud de ofertas promocionales (p. ej., “dos por uno”) o programas de fidelidad (p. ej., utilización de puntos de pasajeros frecuentes) que se ofrecen al público; b) los pasajeros cuyos viajes constituyen una compensación por un embarque denegado; c) los pasajeros que viajan valiéndose de descuentos concedidos a las empresas; y d) los pasajeros que viajan con tarifas preferenciales (funcionarios gubernamentales, marinos, militares, jóvenes, estudiantes, etc.). Exclúyanse, por ejemplo, a) las personas que viajan gratuitamente; b) las que viajan valiéndose de tarifas o rebajas a las que sólo tienen acceso los empleados de los transportistas aéreos o sus agentes, o que se conceden únicamente para viajes de negocios de los transportistas mismos; y c) las criaturas que no ocupan silla.",
+      "fieldName": "pasajeros",
+      "position": 15,
+      "renderTypeName": "number",
+      "tableColumnId": 167098162,
+      "cachedContents": {
+        "non_null": "455735",
+        "largest": "80532",
+        "null": "52",
+        "top": [
+          {
+            "item": "0",
+            "count": "41857"
+          },
+          {
+            "item": "1",
+            "count": "32415"
+          },
+          {
+            "item": "2",
+            "count": "29398"
+          },
+          {
+            "item": "3",
+            "count": "19426"
+          },
+          {
+            "item": "4",
+            "count": "16992"
+          },
+          {
+            "item": "5",
+            "count": "13387"
+          },
+          {
+            "item": "6",
+            "count": "11907"
+          },
+          {
+            "item": "7",
+            "count": "9229"
+          },
+          {
+            "item": "8",
+            "count": "9132"
+          },
+          {
+            "item": "9",
+            "count": "7865"
+          },
+          {
+            "item": "10",
+            "count": "6695"
+          },
+          {
+            "item": "11",
+            "count": "5796"
+          },
+          {
+            "item": "12",
+            "count": "5679"
+          },
+          {
+            "item": "13",
+            "count": "4900"
+          },
+          {
+            "item": "14",
+            "count": "4716"
+          },
+          {
+            "item": "15",
+            "count": "4598"
+          },
+          {
+            "item": "16",
+            "count": "4395"
+          },
+          {
+            "item": "19",
+            "count": "4237"
+          },
+          {
+            "item": "17",
+            "count": "4112"
+          },
+          {
+            "item": "18",
+            "count": "3882"
+          }
+        ],
+        "smallest": "0",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 631067936,
+      "name": "Carga_Correo (Kg)",
+      "dataTypeName": "number",
+      "description": "Carga: Debe entenderse como el total carga de pago transportada en el correspondiente trayecto. Debe reportarse en kilogramos.  Correo: Corresponde al total del correo en kilogramos transportado en el correspondiente trayecto. El correo incluye toda la correspondencia y otros objetos enviados por una administración postal para ser entregados a otra. Debe reportarse en kilogramos",
+      "fieldName": "carga_correo_kg",
+      "position": 16,
+      "renderTypeName": "number",
+      "tableColumnId": 167098161,
+      "cachedContents": {
+        "non_null": "455787",
+        "largest": "11343040",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "309458"
+          },
+          {
+            "item": "50",
+            "count": "3420"
+          },
+          {
+            "item": "100",
+            "count": "2674"
+          },
+          {
+            "item": "20",
+            "count": "1945"
+          },
+          {
+            "item": "10",
+            "count": "1912"
+          },
+          {
+            "item": "30",
+            "count": "1318"
+          },
+          {
+            "item": "200",
+            "count": "1225"
+          },
+          {
+            "item": "150",
+            "count": "1202"
+          },
+          {
+            "item": "80",
+            "count": "1131"
+          },
+          {
+            "item": "40",
+            "count": "1053"
+          },
+          {
+            "item": "45",
+            "count": "1050"
+          },
+          {
+            "item": "60",
+            "count": "1005"
+          },
+          {
+            "item": "90",
+            "count": "1004"
+          },
+          {
+            "item": "70",
+            "count": "911"
+          },
+          {
+            "item": "23",
+            "count": "862"
+          },
+          {
+            "item": "300",
+            "count": "785"
+          },
+          {
+            "item": "120",
+            "count": "710"
+          },
+          {
+            "item": "27",
+            "count": "628"
+          },
+          {
+            "item": "18",
+            "count": "610"
+          },
+          {
+            "item": "250",
+            "count": "605"
+          }
+        ],
+        "smallest": "0",
+        "count": "455787",
+        "cardinality": "455787"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    }
+  ],
+  "grants": [
+    {
+      "inherited": false,
+      "type": "viewer",
+      "flags": [
+        "public"
+      ]
+    }
+  ],
+  "license": {
+    "name": "Creative Commons Attribution | Share Alike 4.0 International",
+    "logoUrl": "images/licenses/cc30bysa.png",
+    "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+  },
+  "metadata": {
+    "custom_fields": {
+      "Información de la Entidad": {
+        "Municipio": "Bogotá D.C.",
+        "Nombre de la Entidad": "Unidad Administrativa Especial de Aeronáutica Civil - AEROCIVIL, Bogotá D.C.",
+        "DIVIPOLA Municipio": "11001",
+        "Orden": "Nacional",
+        "Sector": "Transporte",
+        "Área o dependencia": "Grupo Administrativo y Financiero de cada Regional",
+        "Departamento": "Bogotá D.C."
+      },
+      "Información de Datos": {
+        "Cobertura Geográfica": "Nacional",
+        "Idioma": "Español",
+        "Frecuencia de Actualización": "Trimestral"
+      }
+    },
+    "rowLabel": "Registro de operación de transporte aéreo correspondiente a un trayecto origen-destino reportado por una empresa aérea en un periodo mensual,sajeros y carga transportada",
+    "availableDisplayTypes": [
+      "table",
+      "fatrow",
+      "page"
+    ]
+  },
+  "owner": {
+    "id": "aba2-n32i",
+    "displayName": "DATOS ABIERTOS AEROCIVIL",
+    "profileImageUrlLarge": "/api/users/aba2-n32i/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/aba2-n32i/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/aba2-n32i/profile_images/TINY",
+    "screenName": "DATOS ABIERTOS AEROCIVIL",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "query": {},
+  "rights": [
+    "read"
+  ],
+  "tableAuthor": {
+    "id": "aba2-n32i",
+    "displayName": "DATOS ABIERTOS AEROCIVIL",
+    "profileImageUrlLarge": "/api/users/aba2-n32i/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/aba2-n32i/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/aba2-n32i/profile_images/TINY",
+    "screenName": "DATOS ABIERTOS AEROCIVIL",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "flags": [
+    "default",
+    "ownerMayBeContacted",
+    "restorable",
+    "restorePossibleForType"
+  ]
+}

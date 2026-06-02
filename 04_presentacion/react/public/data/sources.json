@@ -1,0 +1,34 @@
+[
+  {
+    "id": "S1",
+    "name": "OurAirports",
+    "type": "Dimensión aeroportuaria",
+    "layer": "Bronze → Silver",
+    "use": "Códigos ICAO/IATA, coordenadas, tipo de aeropuerto y ubicación.",
+    "url": "https://ourairports.com/data/"
+  },
+  {
+    "id": "S2",
+    "name": "Iowa Environmental Mesonet",
+    "type": "METAR / ASOS histórico",
+    "layer": "Bronze → Silver → Gold",
+    "use": "Reportes meteorológicos agregados a nivel aeropuerto-mes.",
+    "url": "https://mesonet.agron.iastate.edu/request/download.phtml"
+  },
+  {
+    "id": "S3",
+    "name": "Datos Abiertos Colombia · Operaciones",
+    "type": "Operaciones aéreas",
+    "layer": "Bronze → Silver → Gold",
+    "use": "Llegadas, salidas y operaciones mensuales por aeropuerto.",
+    "url": "https://www.datos.gov.co/Transporte/Operaciones-a-reas-acumuladas-en-Colombia/jh8x-n6h6"
+  },
+  {
+    "id": "S4",
+    "name": "Datos Abiertos Colombia · Tráfico OD",
+    "type": "Tráfico origen-destino",
+    "layer": "Bronze → Silver → Gold",
+    "use": "Pasajeros, carga, origen, destino y empresas.",
+    "url": "https://www.datos.gov.co/Transporte/Transporte-A-reo-Comercial-Tr-fico-Origen-Destino/gb6w-ynu4"
+  }
+]

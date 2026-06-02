@@ -1,0 +1,20 @@
+Presentación interactiva del proyecto AeroDatos Colombia
+
+Enlace:
+http://localhost:5173/
+
+Descripción:
+Presentación web interactiva desarrollada en React para apoyar la exposición final del proyecto integrador.
+
+Contenido principal:
+
+* Nombre del proyecto e integrantes.
+* Problema a resolver.
+* Fuentes de datos.
+* Proceso de ingesta y preparación.
+* Análisis exploratorio de datos.
+* Ingeniería de características.
+* Desarrollo y comparación de modelos.
+* Resultados del modelo final.
+* Conclusiones.
+* Referencias.

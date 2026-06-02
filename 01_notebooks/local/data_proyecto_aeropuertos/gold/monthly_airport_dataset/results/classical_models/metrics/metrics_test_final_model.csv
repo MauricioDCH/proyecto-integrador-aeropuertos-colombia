@@ -1,0 +1,2 @@
+experiment_id,model_id,model_name,backend,dataset_config,split_eval,runtime_sec,status,n_eval,accuracy,balanced_accuracy,macro_f1,precision_bajo,recall_bajo,f1_bajo,precision_medio,recall_medio,f1_medio,precision_alto,recall_alto,f1_alto
+M03_corr_060_070_final_test,M03,LightGBM,lightgbm_local,corr_060_070,test,1.1808907985687256,ok,363,0.8622589531680441,0.8615659702616224,0.8620696183751386,0.8775510204081632,0.8686868686868687,0.8730964467005075,0.7923076923076923,0.8174603174603174,0.8046874999999999,0.9185185185185185,0.8985507246376812,0.9084249084249084

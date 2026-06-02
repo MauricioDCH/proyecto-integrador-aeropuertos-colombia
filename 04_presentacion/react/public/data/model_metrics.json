@@ -1,0 +1,45 @@
+[
+  {
+    "model": "Baseline clase mayoritaria",
+    "macroF1": 0.333,
+    "accuracy": 0.34,
+    "balancedAccuracy": 0.333
+  },
+  {
+    "model": "Baseline persistencia temporal",
+    "macroF1": null,
+    "accuracy": 0.6,
+    "balancedAccuracy": null
+  },
+  {
+    "model": "Regresión Logística",
+    "macroF1": 0.673,
+    "accuracy": 0.671,
+    "balancedAccuracy": 0.678
+  },
+  {
+    "model": "Extra Trees",
+    "macroF1": 0.808,
+    "accuracy": 0.806,
+    "balancedAccuracy": 0.814
+  },
+  {
+    "model": "Random Forest",
+    "macroF1": 0.86,
+    "accuracy": 0.859,
+    "balancedAccuracy": 0.863
+  },
+  {
+    "model": "XGBoost (Optuna)",
+    "macroF1": 0.876,
+    "accuracy": 0.875,
+    "balancedAccuracy": 0.873
+  },
+  {
+    "model": "LightGBM (Optuna) — FINAL",
+    "macroF1": 0.876,
+    "accuracy": 0.868,
+    "balancedAccuracy": 0.87,
+    "final": true
+  }
+]

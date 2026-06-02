@@ -1,0 +1,13 @@
+{
+  "icao_code": "SKSL",
+  "source": "iem_metar",
+  "storage_format": "parquet",
+  "original_response_format": "csv",
+  "window_start_utc": "2020-01-01T00:00:00Z",
+  "window_end_exclusive_utc": "2026-02-01T00:00:00Z",
+  "model_month_start": "2020-01-01",
+  "model_month_end": "2025-12-01",
+  "n_rows_downloaded": 0,
+  "n_columns_downloaded": 17,
+  "output_path": "data_proyecto_aeropuertos/bronze/iem/by_airport/SKSL/metar/historical_2020-01-01_2025-12-31.parquet"
+}

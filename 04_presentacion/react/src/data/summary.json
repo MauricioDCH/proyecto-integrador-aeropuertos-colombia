@@ -1,0 +1,28 @@
+{
+  "project": "Clasificación del nivel de operación aérea mensual por aeropuerto en Colombia",
+  "team": [
+    "Mauricio Correa",
+    "Alejandro Suarez",
+    "Verónica Zapata",
+    "Sara Cardona"
+  ],
+  "kpis": [
+    {
+      "value": 46,
+      "label": "aeropuertos colombianos"
+    },
+    {
+      "value": 3254,
+      "label": "registros aeropuerto-mes"
+    },
+    {
+      "value": 4,
+      "label": "fuentes integradas"
+    },
+    {
+      "value": "86.8%",
+      "label": "accuracy modelo final"
+    }
+  ],
+  "period": "2020-01 a 2025-12"
+}

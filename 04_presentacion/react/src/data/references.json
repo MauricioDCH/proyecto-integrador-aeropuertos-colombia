@@ -1,0 +1,42 @@
+[
+  {
+    "id": "D1",
+    "label": "Dataset del proyecto",
+    "text": "Equipo del Proyecto Integrador. monthly_airport_model_dataset.csv. Dataset aeropuerto-mes, Colombia, 2020–2025, 46 aeropuertos y 3.254 registros. 2026."
+  },
+  {
+    "id": "D2",
+    "label": "Operaciones aéreas",
+    "text": "Aeronáutica Civil de Colombia. Operaciones aéreas acumuladas en Colombia. Datos Abiertos Colombia."
+  },
+  {
+    "id": "D3",
+    "label": "Tráfico OD",
+    "text": "Aeronáutica Civil de Colombia. Transporte Aéreo Comercial — Tráfico Origen-Destino. Datos Abiertos Colombia."
+  },
+  {
+    "id": "D4",
+    "label": "OurAirports",
+    "text": "OurAirports. Airport and navaid data. Fuente para metadatos aeroportuarios."
+  },
+  {
+    "id": "D5",
+    "label": "IEM ASOS/METAR",
+    "text": "Iowa Environmental Mesonet. ASOS/AWOS/METAR Data Download. Fuente para observaciones meteorológicas históricas."
+  },
+  {
+    "id": "M1",
+    "label": "CRISP-DM",
+    "text": "Chapman et al. CRISP-DM 1.0: Step-by-step data mining guide. 2000."
+  },
+  {
+    "id": "M2",
+    "label": "LightGBM",
+    "text": "Ke et al. LightGBM: A Highly Efficient Gradient Boosting Decision Tree. NeurIPS, 2017."
+  },
+  {
+    "id": "M3",
+    "label": "Scikit-learn",
+    "text": "Pedregosa et al. Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 2011."
+  }
+]

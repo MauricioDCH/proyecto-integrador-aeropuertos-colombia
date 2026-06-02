@@ -1,0 +1,99 @@
+[
+  {
+    "id": "operacional",
+    "title": "Historia operacional",
+    "color": "#005BE7",
+    "purpose": "Capturar inercia, tendencia y cambios bruscos en la operación mensual.",
+    "lists": {
+      "Variables base": [
+        "operaciones_total",
+        "operaciones_llegada",
+        "operaciones_salida",
+        "operaciones_por_destino"
+      ],
+      "Ventanas temporales": [
+        "roll_mean_3",
+        "roll_mean_12",
+        "lag_1",
+        "lag_3",
+        "delta_1"
+      ],
+      "Ejemplo de señal": [
+        "operaciones_vs_roll_mean_3",
+        "operaciones_vs_roll_mean_12",
+        "operaciones_delta_1"
+      ]
+    }
+  },
+  {
+    "id": "demanda",
+    "title": "Demanda y conectividad",
+    "color": "#00A878",
+    "purpose": "Distinguir hubs, aeropuertos regionales y operación con alta conectividad comercial.",
+    "lists": {
+      "Pasajeros": [
+        "pasajeros_total",
+        "pasajeros_internacional_total",
+        "pasajeros_por_operacion"
+      ],
+      "Conectividad": [
+        "n_origenes_total",
+        "n_destinos_total",
+        "n_empresas_llegada",
+        "n_empresas_salida"
+      ],
+      "Carga": [
+        "carga_total_kg",
+        "carga_kg_por_operacion",
+        "carga_kg_por_operacion_lag_3"
+      ]
+    }
+  },
+  {
+    "id": "meteorologia",
+    "title": "Meteorología agregada",
+    "color": "#06A5D8",
+    "purpose": "Convertir reportes METAR en indicadores mensuales de complejidad operativa.",
+    "lists": {
+      "Condición atmosférica": [
+        "temp_media_c",
+        "humedad_media_pct",
+        "dewpoint_depression_c"
+      ],
+      "Restricciones operativas": [
+        "visibilidad_min_sm",
+        "prop_ifr_aprox",
+        "prop_baja_visibilidad"
+      ],
+      "Score adverso": [
+        "prop_lluvia",
+        "prop_niebla",
+        "prop_viento_fuerte",
+        "meteo_adverso_score_roll_mean_12"
+      ]
+    }
+  },
+  {
+    "id": "geografia",
+    "title": "Geografía y tipo",
+    "color": "#FF8A00",
+    "purpose": "Incorporar ubicación, altitud y escala aeroportuaria como contexto estructural.",
+    "lists": {
+      "Ubicación": [
+        "latitude_deg",
+        "longitude_deg",
+        "region_name"
+      ],
+      "Infraestructura": [
+        "elevation_ft",
+        "type",
+        "scheduled_service"
+      ],
+      "Cobertura": [
+        "cobertura_metar_ratio",
+        "tiene_metar_mes",
+        "tiene_od_mes"
+      ]
+    }
+  }
+]

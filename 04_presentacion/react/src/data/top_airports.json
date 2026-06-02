@@ -1,0 +1,107 @@
+[
+  {
+    "icao": "SKBO",
+    "airport": "El Dorado Intl. Airport",
+    "municipality": "Bogota",
+    "operations": 1744239,
+    "share": 36.3
+  },
+  {
+    "icao": "SKRG",
+    "airport": "Jose Maria Córdova Intl. Airport",
+    "municipality": "Medellín",
+    "operations": 493651,
+    "share": 10.3
+  },
+  {
+    "icao": "SKCL",
+    "airport": "Alfonso Bonilla Aragon Intl. Airport",
+    "municipality": "Cali",
+    "operations": 306941,
+    "share": 6.4
+  },
+  {
+    "icao": "SKCG",
+    "airport": "Rafael Nuñez Intl. Airport",
+    "municipality": "Cartagena",
+    "operations": 253661,
+    "share": 5.3
+  },
+  {
+    "icao": "SKMD",
+    "airport": "Enrique Olaya Herrera Airport",
+    "municipality": "Medellín",
+    "operations": 181879,
+    "share": 3.8
+  },
+  {
+    "icao": "SKBQ",
+    "airport": "Ernesto Cortissoz Intl. Airport",
+    "municipality": "Barranquilla",
+    "operations": 165595,
+    "share": 3.5
+  },
+  {
+    "icao": "SKBG",
+    "airport": "Palonegro Airport",
+    "municipality": "Bucaramanga",
+    "operations": 141342,
+    "share": 2.9
+  },
+  {
+    "icao": "SKQU",
+    "airport": "Mariquita Airport",
+    "municipality": "Mariquita",
+    "operations": 134185,
+    "share": 2.8
+  },
+  {
+    "icao": "SKSM",
+    "airport": "Simón Bolívar Intl. Airport",
+    "municipality": "Santa Marta",
+    "operations": 121907,
+    "share": 2.5
+  },
+  {
+    "icao": "SKPE",
+    "airport": "Matecaña Intl. Airport",
+    "municipality": "Pereira",
+    "operations": 108262,
+    "share": 2.3
+  },
+  {
+    "icao": "SKSP",
+    "airport": "Gustavo Rojas Pinilla Intl. Airport",
+    "municipality": "San Andrés",
+    "operations": 103780,
+    "share": 2.2
+  },
+  {
+    "icao": "SKCC",
+    "airport": "Camilo Daza Intl. Airport",
+    "municipality": "Cúcuta",
+    "operations": 91632,
+    "share": 1.9
+  },
+  {
+    "icao": "SKMR",
+    "airport": "Los Garzones Airport",
+    "municipality": "Montería",
+    "operations": 71406,
+    "share": 1.5
+  },
+  {
+    "icao": "SKYP",
+    "airport": "El Alcaravan - Yopal Airport",
+    "municipality": "Yopal",
+    "operations": 68194,
+    "share": 1.4
+  },
+  {
+    "icao": "SKNV",
+    "airport": "Benito Salas Airport",
+    "municipality": "Neiva",
+    "operations": 60395,
+    "share": 1.3
+  }
+]

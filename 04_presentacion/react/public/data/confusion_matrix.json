@@ -1,0 +1,30 @@
+{
+  "labels": [
+    "bajo",
+    "medio",
+    "alto"
+  ],
+  "matrix": [
+    [
+      86.9,
+      13.1,
+      0.0
+    ],
+    [
+      7.1,
+      82.5,
+      10.3
+    ],
+    [
+      0.0,
+      9.4,
+      90.6
+    ]
+  ],
+  "metrics": {
+    "accuracy": 86.8,
+    "balancedAccuracy": 87.0,
+    "macroF1": 86.8,
+    "extremeConfusion": 0
+  }
+}

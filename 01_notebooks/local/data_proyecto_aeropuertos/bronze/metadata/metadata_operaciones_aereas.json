@@ -1,0 +1,985 @@
+{
+  "id": "jh8x-n6h6",
+  "name": "Operaciones aéreas acumuladas en Colombia",
+  "assetType": "dataset",
+  "attribution": "Unidad Administrativa Especial de Aeronáutica Civil - AEROCIVIL, Bogotá D.C.",
+  "attributionLink": "https://www.aerocivil.gov.co",
+  "averageRating": 0,
+  "category": "Transporte",
+  "createdAt": 1770211574,
+  "description": "Conjunto de datos que consolida el total de operaciones aéreas registradas en los aeródromos de Colombia mensualmente desde edurante el año 2025. La información se presenta de forma agregada y desagregada por mes, aeropuerto, origen, destino, tipo de vuelo, tipo de tráfico y tipo de operación. Estos datos se utilizan para el análisis estadístico del transporte aéreo y el seguimiento de la actividad aeronáutica nacional e internacional.",
+  "diciBackend": false,
+  "displayType": "table",
+  "downloadCount": 226,
+  "hideFromCatalog": false,
+  "hideFromDataJson": false,
+  "licenseId": "CC_40_BY_SA",
+  "locked": false,
+  "newBackend": true,
+  "numberOfComments": 0,
+  "oid": 41925390,
+  "provenance": "official",
+  "publicationAppendEnabled": false,
+  "publicationDate": 1770318718,
+  "publicationGroup": 20263639,
+  "publicationStage": "published",
+  "resourceName": "operaciones-aereas-acumulado-2025",
+  "rowsUpdatedAt": 1778171838,
+  "rowsUpdatedBy": "aba2-n32i",
+  "tableId": 20263639,
+  "totalTimesRated": 0,
+  "viewCount": 1252,
+  "viewLastModified": 1779130907,
+  "viewType": "tabular",
+  "approvals": [
+    {
+      "reviewedAt": 1770411677,
+      "reviewedAutomatically": false,
+      "state": "approved",
+      "submissionId": 7342147,
+      "submissionObject": "public_audience_request",
+      "submissionOutcome": "change_audience",
+      "submittedAt": 1770318718,
+      "targetAudience": "public",
+      "workflowId": 2188,
+      "reviewer": {
+        "id": "r4qn-dwdd",
+        "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+      },
+      "submissionDetails": {
+        "permissionType": "READ"
+      },
+      "submissionOutcomeApplication": {
+        "endedAt": 1770411677,
+        "failureCount": 0,
+        "startedAt": 1770411677,
+        "status": "success"
+      },
+      "submitter": {
+        "id": "aba2-n32i",
+        "displayName": "DATOS ABIERTOS AEROCIVIL"
+      }
+    }
+  ],
+  "clientContext": {
+    "clientContextVariables": [],
+    "inheritedVariables": {}
+  },
+  "columns": [
+    {
+      "id": 626218105,
+      "name": "ANIO",
+      "dataTypeName": "text",
+      "description": "Periodo cronológico anual en el que se registran las operaciones aéreas.",
+      "fieldName": "anio",
+      "position": 1,
+      "renderTypeName": "text",
+      "tableColumnId": 165201614,
+      "cachedContents": {
+        "non_null": "550724",
+        "largest": "2026",
+        "null": "0",
+        "top": [
+          {
+            "item": "2021",
+            "count": "68400"
+          },
+          {
+            "item": "2022",
+            "count": "68274"
+          },
+          {
+            "item": "2019",
+            "count": "64475"
+          },
+          {
+            "item": "2025",
+            "count": "62101"
+          },
+          {
+            "item": "2024",
+            "count": "60432"
+          },
+          {
+            "item": "2023",
+            "count": "60357"
+          },
+          {
+            "item": "2018",
+            "count": "55894"
+          },
+          {
+            "item": "2020",
+            "count": "51332"
+          },
+          {
+            "item": "2017",
+            "count": "44807"
+          },
+          {
+            "item": "2026",
+            "count": "14652"
+          }
+        ],
+        "smallest": "2017",
+        "count": "550724",
+        "cardinality": "550724"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 626218104,
+      "name": "MES",
+      "dataTypeName": "text",
+      "description": "Periodo cronológico mensual en el que se registran las operaciones aéreas.",
+      "fieldName": "mes",
+      "position": 2,
+      "renderTypeName": "text",
+      "tableColumnId": 165201613,
+      "cachedContents": {
+        "non_null": "550724",
+        "largest": "9",
+        "null": "0",
+        "top": [
+          {
+            "item": "3",
+            "count": "49804"
+          },
+          {
+            "item": "2",
+            "count": "49465"
+          },
+          {
+            "item": "1",
+            "count": "48467"
+          },
+          {
+            "item": "12",
+            "count": "47289"
+          },
+          {
+            "item": "10",
+            "count": "46221"
+          },
+          {
+            "item": "11",
+            "count": "45769"
+          },
+          {
+            "item": "9",
+            "count": "45212"
+          },
+          {
+            "item": "8",
+            "count": "44243"
+          },
+          {
+            "item": "5",
+            "count": "44195"
+          },
+          {
+            "item": "6",
+            "count": "43782"
+          },
+          {
+            "item": "7",
+            "count": "43557"
+          },
+          {
+            "item": "4",
+            "count": "42720"
+          }
+        ],
+        "smallest": "1",
+        "count": "550724",
+        "cardinality": "550724"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 626218103,
+      "name": "AEROPUERTO_OPERACION",
+      "dataTypeName": "text",
+      "description": "Indicador de lugar OACI del aeropuerto de registro de la operación",
+      "fieldName": "aeropuerto_operacion",
+      "position": 3,
+      "renderTypeName": "text",
+      "tableColumnId": 165201612,
+      "cachedContents": {
+        "non_null": "550724",
+        "largest": "ZZZZ",
+        "null": "0",
+        "top": [
+          {
+            "item": "SKBO",
+            "count": "109078"
+          },
+          {
+            "item": "SKRG",
+            "count": "31587"
+          },
+          {
+            "item": "SKBG",
+            "count": "27368"
+          },
+          {
+            "item": "SKCL",
+            "count": "21380"
+          },
+          {
+            "item": "SKBQ",
+            "count": "16512"
+          },
+          {
+            "item": "SKMD",
+            "count": "16313"
+          },
+          {
+            "item": "SKCG",
+            "count": "15618"
+          },
+          {
+            "item": "SKNV",
+            "count": "13715"
+          },
+          {
+            "item": "SKCC",
+            "count": "13627"
+          },
+          {
+            "item": "SKEJ",
+            "count": "13237"
+          },
+          {
+            "item": "SKGY",
+            "count": "10904"
+          },
+          {
+            "item": "SKUC",
+            "count": "10626"
+          },
+          {
+            "item": "SKIB",
+            "count": "10225"
+          },
+          {
+            "item": "SKYP",
+            "count": "9954"
+          },
+          {
+            "item": "SKVV",
+            "count": "9704"
+          },
+          {
+            "item": "SKSA",
+            "count": "9435"
+          },
+          {
+            "item": "SKQU",
+            "count": "8310"
+          },
+          {
+            "item": "SKSM",
+            "count": "7909"
+          },
+          {
+            "item": "SKMR",
+            "count": "7908"
+          },
+          {
+            "item": "SKPE",
+            "count": "7762"
+          }
+        ],
+        "smallest": "4SP",
+        "count": "550724",
+        "cardinality": "550724"
+      },
+      "format": {}
+    },
+    {
+      "id": 626218102,
+      "name": "ORIGEN",
+      "dataTypeName": "text",
+      "description": "Punto de partida de la aeronave",
+      "fieldName": "origen",
+      "position": 4,
+      "renderTypeName": "text",
+      "tableColumnId": 165201611,
+      "cachedContents": {
+        "non_null": "550724",
+        "largest": "ZZZZ",
+        "top": [
+          {
+            "item": "SKBO",
+            "count": "79802"
+          },
+          {
+            "item": "SKBG",
+            "count": "26112"
+          },
+          {
+            "item": "SKRG",
+            "count": "23032"
+          },
+          {
+            "item": "SKCL",
+            "count": "19201"
+          },
+          {
+            "item": "SKMD",
+            "count": "16232"
+          },
+          {
+            "item": "SKBQ",
+            "count": "15475"
+          },
+          {
+            "item": "SKNV",
+            "count": "13473"
+          },
+          {
+            "item": "SKCG",
+            "count": "12778"
+          },
+          {
+            "item": "SKCC",
+            "count": "12573"
+          },
+          {
+            "item": "SKEJ",
+            "count": "12547"
+          },
+          {
+            "item": "SKGY",
+            "count": "11284"
+          },
+          {
+            "item": "SKUC",
+            "count": "10017"
+          },
+          {
+            "item": "SKVV",
+            "count": "9830"
+          },
+          {
+            "item": "SKYP",
+            "count": "9198"
+          },
+          {
+            "item": "SKSA",
+            "count": "8900"
+          },
+          {
+            "item": "SKIB",
+            "count": "8806"
+          },
+          {
+            "item": "ZZZZ",
+            "count": "8719"
+          },
+          {
+            "item": "SKQU",
+            "count": "7947"
+          },
+          {
+            "item": "SKMR",
+            "count": "7791"
+          },
+          {
+            "item": "SKSP",
+            "count": "7689"
+          }
+        ],
+        "null": "0",
+        "smallest": "4SP",
+        "count": "550724",
+        "cardinality": "550724"
+      },
+      "format": {}
+    },
+    {
+      "id": 626218101,
+      "name": "DESTINO",
+      "dataTypeName": "text",
+      "description": "Punto de llegada de la aeronave",
+      "fieldName": "destino",
+      "position": 5,
+      "renderTypeName": "text",
+      "tableColumnId": 165201610,
+      "cachedContents": {
+        "non_null": "550724",
+        "largest": "ZZZZ",
+        "top": [
+          {
+            "item": "SKBO",
+            "count": "90572"
+          },
+          {
+            "item": "SKRG",
+            "count": "26363"
+          },
+          {
+            "item": "SKBG",
+            "count": "26295"
+          },
+          {
+            "item": "SKCL",
+            "count": "18585"
+          },
+          {
+            "item": "SKMD",
+            "count": "15738"
+          },
+          {
+            "item": "SKBQ",
+            "count": "14143"
+          },
+          {
+            "item": "SKNV",
+            "count": "13717"
+          },
+          {
+            "item": "SKCG",
+            "count": "13094"
+          },
+          {
+            "item": "SKCC",
+            "count": "12950"
+          },
+          {
+            "item": "SKEJ",
+            "count": "12392"
+          },
+          {
+            "item": "SKGY",
+            "count": "11266"
+          },
+          {
+            "item": "SKUC",
+            "count": "10443"
+          },
+          {
+            "item": "SKVV",
+            "count": "9211"
+          },
+          {
+            "item": "SKSA",
+            "count": "9196"
+          },
+          {
+            "item": "SKYP",
+            "count": "9188"
+          },
+          {
+            "item": "SKIB",
+            "count": "8803"
+          },
+          {
+            "item": "ZZZZ",
+            "count": "8702"
+          },
+          {
+            "item": "SKSM",
+            "count": "7745"
+          },
+          {
+            "item": "SKMR",
+            "count": "7436"
+          },
+          {
+            "item": "SKQU",
+            "count": "7331"
+          }
+        ],
+        "null": "0",
+        "smallest": "2EC",
+        "count": "550724",
+        "cardinality": "550724"
+      },
+      "format": {}
+    },
+    {
+      "id": 626218100,
+      "name": "EMPRESA",
+      "dataTypeName": "text",
+      "description": "Designador de la aerolínea (Comercial)",
+      "fieldName": "empresa",
+      "position": 6,
+      "renderTypeName": "text",
+      "tableColumnId": 165201609,
+      "cachedContents": {
+        "non_null": "550724",
+        "largest": "ZZZ",
+        "top": [
+          {
+            "item": "Estado",
+            "count": "202773"
+          },
+          {
+            "item": "AVA",
+            "count": "44722"
+          },
+          {
+            "item": "NSE",
+            "count": "26800"
+          },
+          {
+            "item": "EFY",
+            "count": "25218"
+          },
+          {
+            "item": "ARE",
+            "count": "17398"
+          },
+          {
+            "item": "0EA",
+            "count": "10249"
+          },
+          {
+            "item": "RPB",
+            "count": "10021"
+          },
+          {
+            "item": "0EC",
+            "count": "9127"
+          },
+          {
+            "item": "VVC",
+            "count": "9127"
+          },
+          {
+            "item": "1GQ",
+            "count": "8153"
+          },
+          {
+            "item": "1DF",
+            "count": "6859"
+          },
+          {
+            "item": "1EH",
+            "count": "6653"
+          },
+          {
+            "item": "KRE",
+            "count": "6499"
+          },
+          {
+            "item": "TPA",
+            "count": "5841"
+          },
+          {
+            "item": "4AF",
+            "count": "5493"
+          },
+          {
+            "item": "4AC",
+            "count": "4911"
+          },
+          {
+            "item": "HTS",
+            "count": "4531"
+          },
+          {
+            "item": "ACL",
+            "count": "4497"
+          },
+          {
+            "item": "UNO",
+            "count": "4056"
+          },
+          {
+            "item": "4BI",
+            "count": "3769"
+          }
+        ],
+        "null": "0",
+        "smallest": "0AC",
+        "count": "550724",
+        "cardinality": "550724"
+      },
+      "format": {}
+    },
+    {
+      "id": 626218099,
+      "name": "EXPLOTADOR",
+      "dataTypeName": "text",
+      "description": "Poseedor del Certificado de Operador Aéreo (AOC)",
+      "fieldName": "explotador",
+      "position": 7,
+      "renderTypeName": "text",
+      "tableColumnId": 165201608,
+      "cachedContents": {
+        "non_null": "550724",
+        "largest": "ZZZ",
+        "top": [
+          {
+            "item": "Estado",
+            "count": "202773"
+          },
+          {
+            "item": "AVA",
+            "count": "34204"
+          },
+          {
+            "item": "EFY",
+            "count": "25183"
+          },
+          {
+            "item": "NSE",
+            "count": "22229"
+          },
+          {
+            "item": "ARE",
+            "count": "14716"
+          },
+          {
+            "item": "1EH",
+            "count": "11712"
+          },
+          {
+            "item": "AVR",
+            "count": "10562"
+          },
+          {
+            "item": "RPB",
+            "count": "10379"
+          },
+          {
+            "item": "0EA",
+            "count": "10269"
+          },
+          {
+            "item": "0EC",
+            "count": "9205"
+          },
+          {
+            "item": "VVC",
+            "count": "8851"
+          },
+          {
+            "item": "1GQ",
+            "count": "8237"
+          },
+          {
+            "item": "HTS",
+            "count": "7358"
+          },
+          {
+            "item": "1DF",
+            "count": "6883"
+          },
+          {
+            "item": "KRE",
+            "count": "6498"
+          },
+          {
+            "item": "TPA",
+            "count": "5597"
+          },
+          {
+            "item": "4AF",
+            "count": "5521"
+          },
+          {
+            "item": "4AC",
+            "count": "4914"
+          },
+          {
+            "item": "LAN",
+            "count": "4752"
+          },
+          {
+            "item": "1ED",
+            "count": "4547"
+          }
+        ],
+        "null": "0",
+        "smallest": "0AC",
+        "count": "550724",
+        "cardinality": "550724"
+      },
+      "format": {}
+    },
+    {
+      "id": 626218098,
+      "name": "TIPO_VUELO",
+      "dataTypeName": "text",
+      "description": "Clasificación por propósito del vuelo",
+      "fieldName": "tipo_vuelo",
+      "position": 8,
+      "renderTypeName": "text",
+      "tableColumnId": 165201607,
+      "cachedContents": {
+        "non_null": "550724",
+        "largest": "X",
+        "top": [
+          {
+            "item": "M",
+            "count": "203454"
+          },
+          {
+            "item": "S",
+            "count": "161126"
+          },
+          {
+            "item": "N",
+            "count": "145410"
+          },
+          {
+            "item": "G",
+            "count": "37114"
+          },
+          {
+            "item": "X",
+            "count": "3620"
+          }
+        ],
+        "null": "0",
+        "smallest": "G",
+        "count": "550724",
+        "cardinality": "550724"
+      },
+      "format": {}
+    },
+    {
+      "id": 626218097,
+      "name": "TRAFICO",
+      "dataTypeName": "text",
+      "description": "Clasificación geográfica del servicio",
+      "fieldName": "trafico",
+      "position": 9,
+      "renderTypeName": "text",
+      "tableColumnId": 165201606,
+      "cachedContents": {
+        "non_null": "550724",
+        "largest": "N",
+        "top": [
+          {
+            "item": "N",
+            "count": "475319"
+          },
+          {
+            "item": "I",
+            "count": "75405"
+          }
+        ],
+        "null": "0",
+        "smallest": "I",
+        "count": "550724",
+        "cardinality": "550724"
+      },
+      "format": {}
+    },
+    {
+      "id": 626218096,
+      "name": "TIPO_OPERACION",
+      "dataTypeName": "text",
+      "description": "Naturaleza del movimiento en pista",
+      "fieldName": "tipo_operacion",
+      "position": 10,
+      "renderTypeName": "text",
+      "tableColumnId": 165201605,
+      "cachedContents": {
+        "non_null": "550724",
+        "largest": "TOQUE Y DESPEGUE",
+        "top": [
+          {
+            "item": "LLEGADA",
+            "count": "276220"
+          },
+          {
+            "item": "SALIDA",
+            "count": "264348"
+          },
+          {
+            "item": "TOQUE Y DESPEGUE",
+            "count": "10156"
+          }
+        ],
+        "null": "0",
+        "smallest": "LLEGADA",
+        "count": "550724",
+        "cardinality": "550724"
+      },
+      "format": {}
+    },
+    {
+      "id": 626218095,
+      "name": "TotalOperaciones",
+      "dataTypeName": "number",
+      "description": "Conteo volumétrico de movimientos",
+      "fieldName": "totaloperaciones",
+      "position": 11,
+      "renderTypeName": "number",
+      "tableColumnId": 165201604,
+      "cachedContents": {
+        "non_null": "550724",
+        "largest": "3219",
+        "top": [
+          {
+            "item": "1",
+            "count": "216385"
+          },
+          {
+            "item": "2",
+            "count": "68867"
+          },
+          {
+            "item": "3",
+            "count": "36561"
+          },
+          {
+            "item": "4",
+            "count": "24837"
+          },
+          {
+            "item": "5",
+            "count": "16991"
+          },
+          {
+            "item": "6",
+            "count": "12695"
+          },
+          {
+            "item": "8",
+            "count": "11159"
+          },
+          {
+            "item": "7",
+            "count": "10636"
+          },
+          {
+            "item": "9",
+            "count": "10234"
+          },
+          {
+            "item": "13",
+            "count": "8400"
+          },
+          {
+            "item": "12",
+            "count": "6753"
+          },
+          {
+            "item": "10",
+            "count": "6266"
+          },
+          {
+            "item": "31",
+            "count": "5829"
+          },
+          {
+            "item": "11",
+            "count": "5693"
+          },
+          {
+            "item": "30",
+            "count": "5610"
+          },
+          {
+            "item": "14",
+            "count": "4931"
+          },
+          {
+            "item": "17",
+            "count": "4553"
+          },
+          {
+            "item": "18",
+            "count": "3932"
+          },
+          {
+            "item": "16",
+            "count": "3828"
+          },
+          {
+            "item": "15",
+            "count": "3496"
+          }
+        ],
+        "null": "0",
+        "smallest": "1",
+        "count": "550724",
+        "cardinality": "550724"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    }
+  ],
+  "grants": [
+    {
+      "inherited": false,
+      "type": "viewer",
+      "flags": [
+        "public"
+      ]
+    }
+  ],
+  "license": {
+    "name": "Creative Commons Attribution | Share Alike 4.0 International",
+    "logoUrl": "images/licenses/cc30bysa.png",
+    "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+  },
+  "metadata": {
+    "custom_fields": {
+      "Información de la Entidad": {
+        "Municipio": "Bogotá D.C.",
+        "Nombre de la Entidad": "Unidad Administrativa Especial de Aeronáutica Civil - AEROCIVIL, Bogotá D.C.",
+        "DIVIPOLA Municipio": "11001",
+        "Orden": "Nacional",
+        "Sector": "Transporte",
+        "Departamento": "Bogotá D.C."
+      },
+      "Información de Datos": {
+        "Cobertura Geográfica": "Nacional",
+        "Idioma": "Español",
+        "Frecuencia de Actualización": "Anual"
+      }
+    }
+  },
+  "owner": {
+    "id": "aba2-n32i",
+    "displayName": "DATOS ABIERTOS AEROCIVIL",
+    "profileImageUrlLarge": "/api/users/aba2-n32i/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/aba2-n32i/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/aba2-n32i/profile_images/TINY",
+    "screenName": "DATOS ABIERTOS AEROCIVIL",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "query": {},
+  "rights": [
+    "read"
+  ],
+  "tableAuthor": {
+    "id": "aba2-n32i",
+    "displayName": "DATOS ABIERTOS AEROCIVIL",
+    "profileImageUrlLarge": "/api/users/aba2-n32i/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/aba2-n32i/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/aba2-n32i/profile_images/TINY",
+    "screenName": "DATOS ABIERTOS AEROCIVIL",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "flags": [
+    "default",
+    "ownerMayBeContacted",
+    "restorable",
+    "restorePossibleForType"
+  ]
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "temp_media_c",
+    "label": "Temp. media",
+    "classes": [
+      {
+        "class": "bajo",
+        "min": 12.722,
+        "q1": 24.715,
+        "median": 27.442,
+        "q3": 28.766,
+        "max": 31.036,
+        "mean": 25.688
+      },
+      {
+        "class": "medio",
+        "min": 17.41,
+        "q1": 24.146,
+        "median": 26.649,
+        "q3": 28.439,
+        "max": 30.337,
+        "mean": 25.909
+      },
+      {
+        "class": "alto",
+        "min": 14.114,
+        "q1": 21.797,
+        "median": 25.058,
+        "q3": 28.032,
+        "max": 29.9,
+        "mean": 24.124
+      }
+    ]
+  },
+  {
+    "id": "humedad_media_pct",
+    "label": "Humedad",
+    "classes": [
+      {
+        "class": "bajo",
+        "min": 58.875,
+        "q1": 73.767,
+        "median": 79.826,
+        "q3": 84.813,
+        "max": 94.14,
+        "mean": 78.595
+      },
+      {
+        "class": "medio",
+        "min": 58.71,
+        "q1": 73.932,
+        "median": 80.424,
+        "q3": 85.846,
+        "max": 93.003,
+        "mean": 78.973
+      },
+      {
+        "class": "alto",
+        "min": 58.278,
+        "q1": 70.915,
+        "median": 78.683,
+        "q3": 83.1,
+        "max": 88.746,
+        "mean": 76.583
+      }
+    ]
+  },
+  {
+    "id": "viento_medio_kt",
+    "label": "Viento",
+    "classes": [
+      {
+        "class": "bajo",
+        "min": 1.336,
+        "q1": 3.263,
+        "median": 4.449,
+        "q3": 6.551,
+        "max": 10.465,
+        "mean": 5.06
+      },
+      {
+        "class": "medio",
+        "min": 1.662,
+        "q1": 2.784,
+        "median": 4.264,
+        "q3": 5.619,
+        "max": 10.168,
+        "mean": 4.689
+      },
+      {
+        "class": "alto",
+        "min": 2.222,
+        "q1": 3.509,
+        "median": 4.421,
+        "q3": 5.275,
+        "max": 7.997,
+        "mean": 4.614
+      }
+    ]
+  },
+  {
+    "id": "visibilidad_media_sm",
+    "label": "Visibilidad",
+    "classes": [
+      {
+        "class": "bajo",
+        "min": 4.732,
+        "q1": 5.781,
+        "median": 6.048,
+        "q3": 6.175,
+        "max": 6.21,
+        "mean": 5.812
+      },
+      {
+        "class": "medio",
+        "min": 4.759,
+        "q1": 5.766,
+        "median": 6.022,
+        "q3": 6.154,
+        "max": 6.21,
+        "mean": 5.815
+      },
+      {
+        "class": "alto",
+        "min": 4.984,
+        "q1": 5.659,
+        "median": 5.96,
+        "q3": 6.107,
+        "max": 6.21,
+        "mean": 5.801
+      }
+    ]
+  },
+  {
+    "id": "prop_lluvia",
+    "label": "Prop. lluvia",
+    "classes": [
+      {
+        "class": "bajo",
+        "min": 0.0,
+        "q1": 0.019,
+        "median": 0.068,
+        "q3": 0.165,
+        "max": 0.436,
+        "mean": 0.126
+      },
+      {
+        "class": "medio",
+        "min": 0.0,
+        "q1": 0.025,
+        "median": 0.077,
+        "q3": 0.144,
+        "max": 0.333,
+        "mean": 0.112
+      },
+      {
+        "class": "alto",
+        "min": 0.0,
+        "q1": 0.046,
+        "median": 0.105,
+        "q3": 0.194,
+        "max": 0.345,
+        "mean": 0.139
+      }
+    ]
+  },
+  {
+    "id": "prop_ifr_aprox",
+    "label": "Prop. IFR",
+    "classes": [
+      {
+        "class": "bajo",
+        "min": 0.0,
+        "q1": 0.001,
+        "median": 0.032,
+        "q3": 0.125,
+        "max": 0.416,
+        "mean": 0.101
+      },
+      {
+        "class": "medio",
+        "min": 0.0,
+        "q1": 0.004,
+        "median": 0.047,
+        "q3": 0.136,
+        "max": 0.333,
+        "mean": 0.098
+      },
+      {
+        "class": "alto",
+        "min": 0.0,
+        "q1": 0.009,
+        "median": 0.052,
+        "q3": 0.133,
+        "max": 0.293,
+        "mean": 0.093
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "config_id": "baseline_persistencia",
+  "tipo": "baseline_temporal",
+  "descripcion": "Configuración del baseline temporal principal del proyecto. Este baseline se usará para comparar si los modelos supervisados agregan valor frente a una regla simple basada en el historial.",
+  "baselines_definidos": {
+    "B00_majority_class": {
+      "descripcion": "Predice siempre la clase más frecuente observada en train. Sirve como referencia mínima.",
+      "requiere_modelo": false,
+      "requiere_icao_code": false
+    },
+    "B01_persistencia_temporal": {
+      "descripcion": "Predice el nivel de operación del próximo mes usando el nivel reciente o actual del mismo aeropuerto.",
+      "requiere_modelo": false,
+      "requiere_icao_code": true,
+      "requiere_fecha_mes": true
+    }
+  },
+  "target_cat_col": "target_nivel_operacion_mes_siguiente",
+  "target_num_col": "target_operaciones_total_mes_siguiente",
+  "nota_fuente_datos": "El baseline de persistencia debe construirse desde un dataset que conserve icao_code y fecha_mes, por ejemplo el dataset Gold original o los splits previos al preprocesamiento donde se eliminaron variables categóricas. No debe construirse desde full_features porque esa configuración no se guardará como experimento principal.",
+  "fuentes_sugeridas": {
+    "train": "dataset Gold o split de train antes de eliminar icao_code",
+    "validation": "dataset Gold o split de validation antes de eliminar icao_code",
+    "test": "dataset Gold o split de test antes de eliminar icao_code"
+  },
+  "metrica_comparacion": [
+    "accuracy",
+    "macro_f1",
+    "balanced_accuracy",
+    "f1_por_clase",
+    "matriz_confusion"
+  ],
+  "nota": "Este bloque solo guarda la configuración metodológica del baseline. La implementación concreta se realizará en el notebook de modelado."
+}

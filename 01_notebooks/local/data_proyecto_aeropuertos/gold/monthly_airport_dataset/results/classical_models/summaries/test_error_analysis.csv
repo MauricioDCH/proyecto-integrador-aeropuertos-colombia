@@ -1,0 +1,364 @@
+label_real,label_pred,clase_real,clase_pred,acierto,tipo_error
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+1,0,medio,bajo,False,medio → bajo
+0,0,bajo,bajo,True,acierto
+0,1,bajo,medio,False,bajo → medio
+0,1,bajo,medio,False,bajo → medio
+0,0,bajo,bajo,True,acierto
+0,1,bajo,medio,False,bajo → medio
+0,1,bajo,medio,False,bajo → medio
+1,0,medio,bajo,False,medio → bajo
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+1,0,medio,bajo,False,medio → bajo
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+0,1,bajo,medio,False,bajo → medio
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+2,1,alto,medio,False,alto → medio
+2,1,alto,medio,False,alto → medio
+1,1,medio,medio,True,acierto
+2,1,alto,medio,False,alto → medio
+2,1,alto,medio,False,alto → medio
+2,1,alto,medio,False,alto → medio
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+2,1,alto,medio,False,alto → medio
+2,1,alto,medio,False,alto → medio
+1,2,medio,alto,False,medio → alto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+2,2,alto,alto,True,acierto
+1,2,medio,alto,False,medio → alto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+1,2,medio,alto,False,medio → alto
+1,1,medio,medio,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+1,2,medio,alto,False,medio → alto
+1,1,medio,medio,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+2,1,alto,medio,False,alto → medio
+1,2,medio,alto,False,medio → alto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,2,medio,alto,False,medio → alto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+1,0,medio,bajo,False,medio → bajo
+0,0,bajo,bajo,True,acierto
+1,0,medio,bajo,False,medio → bajo
+1,0,medio,bajo,False,medio → bajo
+0,0,bajo,bajo,True,acierto
+1,0,medio,bajo,False,medio → bajo
+1,1,medio,medio,True,acierto
+1,0,medio,bajo,False,medio → bajo
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+1,2,medio,alto,False,medio → alto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,2,medio,alto,False,medio → alto
+2,2,alto,alto,True,acierto
+1,0,medio,bajo,False,medio → bajo
+1,1,medio,medio,True,acierto
+1,0,medio,bajo,False,medio → bajo
+1,0,medio,bajo,False,medio → bajo
+0,1,bajo,medio,False,bajo → medio
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+1,0,medio,bajo,False,medio → bajo
+1,1,medio,medio,True,acierto
+2,1,alto,medio,False,alto → medio
+2,2,alto,alto,True,acierto
+1,2,medio,alto,False,medio → alto
+2,1,alto,medio,False,alto → medio
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+1,2,medio,alto,False,medio → alto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+0,0,bajo,bajo,True,acierto
+0,1,bajo,medio,False,bajo → medio
+0,1,bajo,medio,False,bajo → medio
+0,1,bajo,medio,False,bajo → medio
+0,1,bajo,medio,False,bajo → medio
+0,1,bajo,medio,False,bajo → medio
+0,1,bajo,medio,False,bajo → medio
+0,1,bajo,medio,False,bajo → medio
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+0,0,bajo,bajo,True,acierto
+1,1,medio,medio,True,acierto
+1,2,medio,alto,False,medio → alto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+1,1,medio,medio,True,acierto
+2,1,alto,medio,False,alto → medio
+2,1,alto,medio,False,alto → medio
+2,1,alto,medio,False,alto → medio
+2,2,alto,alto,True,acierto
+2,1,alto,medio,False,alto → medio
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto
+2,2,alto,alto,True,acierto

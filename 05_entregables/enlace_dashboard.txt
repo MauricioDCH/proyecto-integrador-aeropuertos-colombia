@@ -1,0 +1,16 @@
+Dashboard interactivo del proyecto AeroDatos Colombia
+
+Enlace:
+https://aeropuertos-pi.streamlit.app/
+
+Descripción:
+Aplicación interactiva desarrollada en Streamlit para explorar información operacional, de pasajeros, carga, conectividad y condiciones meteorológicas METAR de aeropuertos colombianos.
+
+Contenido principal:
+
+* Mapa interactivo por aeropuerto.
+* Filtros por periodo, región y tipo de aeropuerto.
+* Visualización de operaciones, pasajeros, carga, conectividad y clima.
+* Selección de aeropuerto mediante clic.
+* Indicadores resumidos por vista.
+* Gráfica temporal por aeropuerto o vista nacional.

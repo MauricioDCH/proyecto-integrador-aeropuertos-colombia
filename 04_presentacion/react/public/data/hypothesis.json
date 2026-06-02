@@ -1,0 +1,23 @@
+{
+  "baseline": 33,
+  "bars": [
+    {
+      "label": "1 mes\ncon score alto",
+      "value": 42
+    },
+    {
+      "label": "2 meses\nconsecutivos",
+      "value": 56
+    },
+    {
+      "label": "3 meses\nconsecutivos",
+      "value": 74
+    }
+  ],
+  "insights": [
+    "meteo_adverso_score_roll_mean_12 aparece en el top de variables del modelo.",
+    "El score adverso promedio es más alto en aeropuertos de nivel bajo.",
+    "A 3 meses consecutivos, el efecto supera ampliamente el baseline aleatorio."
+  ],
+  "statement": "Los aeropuertos con score meteorológico adverso elevado durante 3 meses consecutivos tienen 74% de probabilidad de permanecer en nivel bajo — independientemente de su historial operacional."
+}

@@ -1,0 +1,712 @@
+[
+  {
+    "month": "2020-01",
+    "label": "Jan 2020",
+    "year": 2020,
+    "operations": 81582,
+    "phase": "normal",
+    "event": "Pre-pandemia",
+    "note": "Nivel operativo previo al choque de 2020.",
+    "rolling_mean_3": 81582.0
+  },
+  {
+    "month": "2020-02",
+    "label": "Feb 2020",
+    "year": 2020,
+    "operations": 80720,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 81151.0
+  },
+  {
+    "month": "2020-03",
+    "label": "Mar 2020",
+    "year": 2020,
+    "operations": 59069,
+    "phase": "choque",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 73790.3
+  },
+  {
+    "month": "2020-04",
+    "label": "Apr 2020",
+    "year": 2020,
+    "operations": 14329,
+    "phase": "choque",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 51372.7
+  },
+  {
+    "month": "2020-05",
+    "label": "May 2020",
+    "year": 2020,
+    "operations": 12946,
+    "phase": "choque",
+    "event": "Mínimo COVID",
+    "note": "Mínimo operacional del periodo analizado.",
+    "rolling_mean_3": 28781.3
+  },
+  {
+    "month": "2020-06",
+    "label": "Jun 2020",
+    "year": 2020,
+    "operations": 13280,
+    "phase": "choque",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 13518.3
+  },
+  {
+    "month": "2020-07",
+    "label": "Jul 2020",
+    "year": 2020,
+    "operations": 15546,
+    "phase": "choque",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 13924.0
+  },
+  {
+    "month": "2020-08",
+    "label": "Aug 2020",
+    "year": 2020,
+    "operations": 17308,
+    "phase": "choque",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 15378.0
+  },
+  {
+    "month": "2020-09",
+    "label": "Sep 2020",
+    "year": 2020,
+    "operations": 25923,
+    "phase": "choque",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 19592.3
+  },
+  {
+    "month": "2020-10",
+    "label": "Oct 2020",
+    "year": 2020,
+    "operations": 36694,
+    "phase": "choque",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 26641.7
+  },
+  {
+    "month": "2020-11",
+    "label": "Nov 2020",
+    "year": 2020,
+    "operations": 47386,
+    "phase": "choque",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 36667.7
+  },
+  {
+    "month": "2020-12",
+    "label": "Dec 2020",
+    "year": 2020,
+    "operations": 54391,
+    "phase": "choque",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 46157.0
+  },
+  {
+    "month": "2021-01",
+    "label": "Jan 2021",
+    "year": 2021,
+    "operations": 56415,
+    "phase": "recuperacion",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 52730.7
+  },
+  {
+    "month": "2021-02",
+    "label": "Feb 2021",
+    "year": 2021,
+    "operations": 51970,
+    "phase": "recuperacion",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 54258.7
+  },
+  {
+    "month": "2021-03",
+    "label": "Mar 2021",
+    "year": 2021,
+    "operations": 56013,
+    "phase": "recuperacion",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 54799.3
+  },
+  {
+    "month": "2021-04",
+    "label": "Apr 2021",
+    "year": 2021,
+    "operations": 55736,
+    "phase": "recuperacion",
+    "event": "Recuperación",
+    "note": "Retorno progresivo hacia niveles cercanos a la pre-pandemia.",
+    "rolling_mean_3": 54573.0
+  },
+  {
+    "month": "2021-05",
+    "label": "May 2021",
+    "year": 2021,
+    "operations": 59700,
+    "phase": "recuperacion",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 57149.7
+  },
+  {
+    "month": "2021-06",
+    "label": "Jun 2021",
+    "year": 2021,
+    "operations": 62984,
+    "phase": "recuperacion",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 59473.3
+  },
+  {
+    "month": "2021-07",
+    "label": "Jul 2021",
+    "year": 2021,
+    "operations": 66655,
+    "phase": "recuperacion",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 63113.0
+  },
+  {
+    "month": "2021-08",
+    "label": "Aug 2021",
+    "year": 2021,
+    "operations": 66437,
+    "phase": "recuperacion",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 65358.7
+  },
+  {
+    "month": "2021-09",
+    "label": "Sep 2021",
+    "year": 2021,
+    "operations": 68982,
+    "phase": "recuperacion",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 67358.0
+  },
+  {
+    "month": "2021-10",
+    "label": "Oct 2021",
+    "year": 2021,
+    "operations": 73132,
+    "phase": "recuperacion",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 69517.0
+  },
+  {
+    "month": "2021-11",
+    "label": "Nov 2021",
+    "year": 2021,
+    "operations": 73704,
+    "phase": "recuperacion",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 71939.3
+  },
+  {
+    "month": "2021-12",
+    "label": "Dec 2021",
+    "year": 2021,
+    "operations": 76674,
+    "phase": "recuperacion",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 74503.3
+  },
+  {
+    "month": "2022-01",
+    "label": "Jan 2022",
+    "year": 2022,
+    "operations": 76667,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 75681.7
+  },
+  {
+    "month": "2022-02",
+    "label": "Feb 2022",
+    "year": 2022,
+    "operations": 68475,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 73938.7
+  },
+  {
+    "month": "2022-03",
+    "label": "Mar 2022",
+    "year": 2022,
+    "operations": 77663,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 74268.3
+  },
+  {
+    "month": "2022-04",
+    "label": "Apr 2022",
+    "year": 2022,
+    "operations": 76795,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 74311.0
+  },
+  {
+    "month": "2022-05",
+    "label": "May 2022",
+    "year": 2022,
+    "operations": 82804,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 79087.3
+  },
+  {
+    "month": "2022-06",
+    "label": "Jun 2022",
+    "year": 2022,
+    "operations": 79227,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 79608.7
+  },
+  {
+    "month": "2022-07",
+    "label": "Jul 2022",
+    "year": 2022,
+    "operations": 81039,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 81023.3
+  },
+  {
+    "month": "2022-08",
+    "label": "Aug 2022",
+    "year": 2022,
+    "operations": 81822,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 80696.0
+  },
+  {
+    "month": "2022-09",
+    "label": "Sep 2022",
+    "year": 2022,
+    "operations": 76966,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 79942.3
+  },
+  {
+    "month": "2022-10",
+    "label": "Oct 2022",
+    "year": 2022,
+    "operations": 76781,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 78523.0
+  },
+  {
+    "month": "2022-11",
+    "label": "Nov 2022",
+    "year": 2022,
+    "operations": 74429,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 76058.7
+  },
+  {
+    "month": "2022-12",
+    "label": "Dec 2022",
+    "year": 2022,
+    "operations": 78369,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 76526.3
+  },
+  {
+    "month": "2023-01",
+    "label": "Jan 2023",
+    "year": 2023,
+    "operations": 76029,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 76275.7
+  },
+  {
+    "month": "2023-02",
+    "label": "Feb 2023",
+    "year": 2023,
+    "operations": 67755,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 74051.0
+  },
+  {
+    "month": "2023-03",
+    "label": "Mar 2023",
+    "year": 2023,
+    "operations": 69862,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 71215.3
+  },
+  {
+    "month": "2023-04",
+    "label": "Apr 2023",
+    "year": 2023,
+    "operations": 66000,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 67872.3
+  },
+  {
+    "month": "2023-05",
+    "label": "May 2023",
+    "year": 2023,
+    "operations": 69000,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 68287.3
+  },
+  {
+    "month": "2023-06",
+    "label": "Jun 2023",
+    "year": 2023,
+    "operations": 67687,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 67562.3
+  },
+  {
+    "month": "2023-07",
+    "label": "Jul 2023",
+    "year": 2023,
+    "operations": 71004,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 69230.3
+  },
+  {
+    "month": "2023-08",
+    "label": "Aug 2023",
+    "year": 2023,
+    "operations": 72241,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 70310.7
+  },
+  {
+    "month": "2023-09",
+    "label": "Sep 2023",
+    "year": 2023,
+    "operations": 68404,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 70549.7
+  },
+  {
+    "month": "2023-10",
+    "label": "Oct 2023",
+    "year": 2023,
+    "operations": 70792,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 70479.0
+  },
+  {
+    "month": "2023-11",
+    "label": "Nov 2023",
+    "year": 2023,
+    "operations": 75143,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 71446.3
+  },
+  {
+    "month": "2023-12",
+    "label": "Dec 2023",
+    "year": 2023,
+    "operations": 78826,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 74920.3
+  },
+  {
+    "month": "2024-01",
+    "label": "Jan 2024",
+    "year": 2024,
+    "operations": 76994,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 76987.7
+  },
+  {
+    "month": "2024-02",
+    "label": "Feb 2024",
+    "year": 2024,
+    "operations": 73075,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 76298.3
+  },
+  {
+    "month": "2024-03",
+    "label": "Mar 2024",
+    "year": 2024,
+    "operations": 77624,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 75897.7
+  },
+  {
+    "month": "2024-04",
+    "label": "Apr 2024",
+    "year": 2024,
+    "operations": 74491,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 75063.3
+  },
+  {
+    "month": "2024-05",
+    "label": "May 2024",
+    "year": 2024,
+    "operations": 77674,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 76596.3
+  },
+  {
+    "month": "2024-06",
+    "label": "Jun 2024",
+    "year": 2024,
+    "operations": 73948,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 75371.0
+  },
+  {
+    "month": "2024-07",
+    "label": "Jul 2024",
+    "year": 2024,
+    "operations": 76081,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 75901.0
+  },
+  {
+    "month": "2024-08",
+    "label": "Aug 2024",
+    "year": 2024,
+    "operations": 76814,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 75614.3
+  },
+  {
+    "month": "2024-09",
+    "label": "Sep 2024",
+    "year": 2024,
+    "operations": 75131,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 76008.7
+  },
+  {
+    "month": "2024-10",
+    "label": "Oct 2024",
+    "year": 2024,
+    "operations": 81609,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 77851.3
+  },
+  {
+    "month": "2024-11",
+    "label": "Nov 2024",
+    "year": 2024,
+    "operations": 78819,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 78519.7
+  },
+  {
+    "month": "2024-12",
+    "label": "Dec 2024",
+    "year": 2024,
+    "operations": 83840,
+    "phase": "normal",
+    "event": "Nuevo máximo",
+    "note": "Nuevo techo operacional dentro del periodo.",
+    "rolling_mean_3": 81422.7
+  },
+  {
+    "month": "2025-01",
+    "label": "Jan 2025",
+    "year": 2025,
+    "operations": 80941,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 81200.0
+  },
+  {
+    "month": "2025-02",
+    "label": "Feb 2025",
+    "year": 2025,
+    "operations": 72621,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 79134.0
+  },
+  {
+    "month": "2025-03",
+    "label": "Mar 2025",
+    "year": 2025,
+    "operations": 78674,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 77412.0
+  },
+  {
+    "month": "2025-04",
+    "label": "Apr 2025",
+    "year": 2025,
+    "operations": 75521,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 75605.3
+  },
+  {
+    "month": "2025-05",
+    "label": "May 2025",
+    "year": 2025,
+    "operations": 77800,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 77331.7
+  },
+  {
+    "month": "2025-06",
+    "label": "Jun 2025",
+    "year": 2025,
+    "operations": 75892,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 76404.3
+  },
+  {
+    "month": "2025-07",
+    "label": "Jul 2025",
+    "year": 2025,
+    "operations": 79393,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 77695.0
+  },
+  {
+    "month": "2025-08",
+    "label": "Aug 2025",
+    "year": 2025,
+    "operations": 79721,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 78335.3
+  },
+  {
+    "month": "2025-09",
+    "label": "Sep 2025",
+    "year": 2025,
+    "operations": 77477,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 78863.7
+  },
+  {
+    "month": "2025-10",
+    "label": "Oct 2025",
+    "year": 2025,
+    "operations": 83155,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 80117.7
+  },
+  {
+    "month": "2025-11",
+    "label": "Nov 2025",
+    "year": 2025,
+    "operations": 80747,
+    "phase": "normal",
+    "event": null,
+    "note": "Operación mensual nacional.",
+    "rolling_mean_3": 80459.7
+  }
+]

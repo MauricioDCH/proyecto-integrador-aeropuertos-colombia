@@ -1,0 +1,30 @@
+[
+  {
+    "id": "prepandemia",
+    "title": "Pre-pandemia",
+    "month": "2020-01",
+    "color": "#005BE7",
+    "description": "Nivel operativo previo al choque de 2020."
+  },
+  {
+    "id": "minimo_covid",
+    "title": "Mínimo COVID",
+    "month": "2020-05",
+    "color": "#EF4444",
+    "description": "Punto mínimo de operaciones mensuales: 12.946 operaciones."
+  },
+  {
+    "id": "recuperacion",
+    "title": "Recuperación",
+    "month": "2021-04",
+    "color": "#0077B6",
+    "description": "Retorno progresivo hacia niveles cercanos a la pre-pandemia."
+  },
+  {
+    "id": "nuevo_maximo",
+    "title": "Nuevo máximo",
+    "month": "2024-12",
+    "color": "#00A878",
+    "description": "Máximo operativo del periodo: 83.840 operaciones."
+  }
+]
