@@ -1,17 +1,5 @@
 [
   {
-    "model": "Baseline clase mayoritaria",
-    "macroF1": 0.333,
-    "accuracy": 0.34,
-    "balancedAccuracy": 0.333
-  },
-  {
-    "model": "Baseline persistencia temporal",
-    "macroF1": null,
-    "accuracy": 0.6,
-    "balancedAccuracy": null
-  },
-  {
     "model": "Regresión Logística",
     "macroF1": 0.673,
     "accuracy": 0.671,

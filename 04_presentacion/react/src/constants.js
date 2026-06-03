@@ -22,6 +22,7 @@ export const NAV_ITEMS = [
   ['problem', 'Problema'],
   ['sources', 'Fuentes'],
   ['pipeline', 'Pipeline'],
+  ['architecture', 'Arquitectura'],
   ['dataset', 'Dataset'],
   ['imputation', 'Imputación'],
   ['edaTop', 'EDA Top'],

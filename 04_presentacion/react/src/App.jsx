@@ -11,6 +11,7 @@ import { FeatureEngineeringSlide } from './slides/FeatureEngineeringSlide';
 import { HypothesisSlide } from './slides/HypothesisSlide';
 import { ModelsSlide } from './slides/ModelsSlide';
 import { PipelineSlide } from './slides/PipelineSlide';
+import { ArchitectureSlide } from './slides/ArchitectureSlide';
 import { ProblemSlide } from './slides/ProblemSlide';
 import { ProjectSlide } from './slides/ProjectSlide';
 import { ReferencesSlide } from './slides/ReferencesSlide';
@@ -31,6 +32,7 @@ export default function App() {
       ProblemSlide,
       SourcesSlide,
       PipelineSlide,
+      ArchitectureSlide,
       DatasetSlide,
       ImputationSlide,
       EdaTopSlide,
